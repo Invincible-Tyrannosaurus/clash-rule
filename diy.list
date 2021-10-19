@@ -1,2 +1,9 @@
 ## > 东航
 DOMAIN-KEYWORD,ceair
+
+## > PLEX
+DOMAIN-SUFFIX,plex.tv
+
+## > 群辉远程登录
+DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-SUFFIX,checkip.synology.com
