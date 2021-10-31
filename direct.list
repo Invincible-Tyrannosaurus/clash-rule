@@ -7,3 +7,6 @@ DOMAIN-SUFFIX,plex.tv
 ## > 群辉远程登录
 DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkip.synology.com
+
+## >懒得勤快
+DOMAIN-KEYWORD,masuit
