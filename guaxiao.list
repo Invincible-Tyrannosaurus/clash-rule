@@ -7,5 +7,5 @@ DOMAIN-KEYWORD,omdbapi
 DOMAIN-KEYWORD,tmdb
 
 ##》 微软网络连接
-DOMAIN-SUFFIX,msftconnecttest.com,🚀 节点选择
-DOMAIN-SUFFIX,msftncsi.com,🚀 节点选择
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
