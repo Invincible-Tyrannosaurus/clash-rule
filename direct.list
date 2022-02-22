@@ -17,6 +17,3 @@ DOMAIN-KEYWORD,masuit
 
 ##> PT直连
 DOMAIN-SUFFIX,sync.leniter.org
-
-##> 订阅转换
-DOMAIN-SUFFIX,sub.v1.mk
