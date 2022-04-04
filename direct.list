@@ -17,17 +17,3 @@ DOMAIN-KEYWORD,masuit
 
 ##> PT直连
 DOMAIN-SUFFIX,sync.leniter.org
-
-## > 群辉套件中心
-DOMAIN-SUFFIX,payment.synology.com
-DOMAIN-SUFFIX,keymaker.synology.com
-DOMAIN-SUFFIX,timestamp.synology.com
-DOMAIN-SUFFIX,account.synology.com
-DOMAIN-SUFFIX,cndl.synology.cn
-DOMAIN-SUFFIX,global.download.synology.com
-DOMAIN-SUFFIX,download.synology.com
-DOMAIN-SUFFIX,synology.com
-DOMAIN-SUFFIX,synology.com/company/term_packagecenter.php
-DOMAIN-SUFFIX,pkgautoupdate.synology.com
-DOMAIN-SUFFIX,pkgautoupdate.synology.cn
-DOMAIN-SUFFIX,pkgupdate.synology.com
