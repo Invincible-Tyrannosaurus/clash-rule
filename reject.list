@@ -1,22 +1,3 @@
-## > 东航
-DOMAIN-KEYWORD,ceair
-
-## > PLEX
-DOMAIN-SUFFIX,plex.tv
-
-## > 群辉远程登录
-DOMAIN-SUFFIX,checkip.dyndns.org
-DOMAIN-SUFFIX,checkip.synology.com
-DOMAIN-SUFFIX,checkipv6.synology.com
-DOMAIN-SUFFIX,checkport.synology.com
-DOMAIN-SUFFIX,ddns.synology.com
-DOMAIN-SUFFIX,account.synology.com
-
-## > 懒得勤快
-DOMAIN-KEYWORD,masuit
-
-##> PT直连
-DOMAIN-SUFFIX,sync.leniter.org
-DOMAIN-SUFFIX,1ptba.com
-DOMAIN-SUFFIX,lemonhd.org
-DOMAIN-SUFFIX,www.haidan.video
+## > B站
+DOMAIN-SUFFIX,v1d.szbdyd.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn 
