@@ -23,3 +23,6 @@ DOMAIN-SUFFIX,www.haidan.video
 
 ##> 低端影视
 DOMAIN-SUFFIX,ddrk.me
+
+##> Transmission 端口检测
+DOMAIN-SUFFIX,portcheck.transmissionbt.com
