@@ -3,4 +3,4 @@ DOMAIN-SUFFIX,v1d.szbdyd.com
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
 
 ## > 屏蔽群辉更新
-update7.synology.com
+DOMAIN-SUFFIX,update7.synology.com
