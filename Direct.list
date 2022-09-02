@@ -31,4 +31,4 @@ DOMAIN-SUFFIX,portcheck.transmissionbt.com
 DOMAIN-SUFFIX,api.ipify.org
 
 ##> EMBY验证服务器
-DOMAIN-SUFFIX,www.mb3admin.com
+DOMAIN-SUFFIX,mb3admin.com
