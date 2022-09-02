@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,ddrk.me
 
 ##> Transmission 端口检测
 DOMAIN-SUFFIX,portcheck.transmissionbt.com
+
+##> IP检测
+DOMAIN-SUFFIX,api.ipify.org
