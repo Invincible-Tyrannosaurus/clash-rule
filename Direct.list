@@ -32,3 +32,8 @@ DOMAIN-SUFFIX,api.ipify.org
 
 ##> EMBY验证服务器
 DOMAIN-SUFFIX,mb3admin.com
+
+##》 EMBY
+DOMAIN-SUFFIX,connect.emby.media
+DOMAIN-SUFFIX,embydata.com
+DOMAIN-SUFFIX,emby.tv
