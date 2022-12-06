@@ -94,3 +94,6 @@ DOMAIN-SUFFIX,shizuku.ml
 
 # V1订阅
 DOMAIN-SUFFIX,v1.mk
+
+# 京东wskey转换接口
+DOMAIN-SUFFIX,api.jds.codes
