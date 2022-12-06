@@ -10,3 +10,6 @@ DOMAIN-KEYWORD,theaudiodb.com
 ##》 微软网络连接
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
+
+# 京东wskey转换接口
+DOMAIN-SUFFIX,api.jds.codes
