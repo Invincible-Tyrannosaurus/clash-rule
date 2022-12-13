@@ -4,3 +4,6 @@ DOMAIN-SUFFIX,update7.synology.com
 ## > 屏蔽Roon
 DOMAIN-SUFFIX,accounts5.roonlabs.com
 DOMAIN-SUFFIX,updates.roonlabs.com
+
+## > 屏蔽tinymediamanager升级
+DOMAIN-SUFFIX,release.tinymediamanager.org
