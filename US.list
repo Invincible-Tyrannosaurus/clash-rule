@@ -1,1 +1,2 @@
-domain-suffix chat.openai.com
+## openai 走美国节点
+DOMAIN-SUFFIX,chat.openai.com
