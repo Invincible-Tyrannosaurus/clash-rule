@@ -10,3 +10,6 @@ DOMAIN-KEYWORD,theaudiodb.com
 ##》 微软网络连接
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
+
+##》 人机验证
+DOMAIN-KEYWORD,hcaptcha
