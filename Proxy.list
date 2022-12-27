@@ -13,3 +13,7 @@ DOMAIN-SUFFIX,msftncsi.com
 
 ##》 人机验证
 DOMAIN-KEYWORD,hcaptcha
+
+
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-KEYWORD,freenom
