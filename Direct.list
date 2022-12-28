@@ -94,3 +94,6 @@ DOMAIN-SUFFIX,shizuku.ml
 
 # V1订阅
 DOMAIN-SUFFIX,v1.mk
+
+
+DOMAIN-SUFFIX,api.kingran.cf
