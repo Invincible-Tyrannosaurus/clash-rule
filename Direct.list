@@ -95,8 +95,15 @@ DOMAIN-SUFFIX,shizuku.ml
 # V1订阅
 DOMAIN-SUFFIX,v1.mk
 
-DOMAIN-SUFFIX,api.kingran.cf
+DOMAIN-KEYWORD,kingran
 DOMAIN-SUFFIX,geili.me
-DOMAIN-SUFFIX,s2.loli.net
-DOMAIN-SUFFIX,api.momoe.ml
-DOMAIN-SUFFIX,api.nolanstore.top
+DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,momoe.ml
+DOMAIN-SUFFIX,nolanstore.top
+DOMAIN-SUFFIX,ptpimg.me
+DOMAIN-SUFFIX,niupic.com
+DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,ccache.org
+DOMAIN-SUFFIX,z4a.net
+DOMAIN-SUFFIX,uuu.ovh
+DOMAIN-SUFFIX,imgurl.org
