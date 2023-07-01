@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,checkport.synology.com
 DOMAIN-SUFFIX,ddns.synology.com
 DOMAIN-SUFFIX,account.synology.com
 
+## > 群辉cloudsync同步
+DOMAIN-SUFFIX,cloudsync-tw.synology.com
+
+
 ## > 懒得勤快
 DOMAIN-KEYWORD,masuit
 
