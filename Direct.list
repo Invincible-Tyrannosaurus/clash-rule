@@ -92,6 +92,9 @@ DOMAIN-SUFFIX,busuanzi.ibruce.info
 DOMAIN-SUFFIX,polyfill.io
 DOMAIN-SUFFIX,hboav.com
 
+# V1订阅
+DOMAIN-SUFFIX,v1.mk
+
 # 飞客论坛
 DOMAIN-SUFFIX,flyert.com
 
