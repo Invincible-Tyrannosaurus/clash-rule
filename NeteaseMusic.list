@@ -1,3 +1,34 @@
+# Unblock 网易云解锁
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,api.iplay.163.com
+DOMAIN-SUFFIX,apm.music.163.com
+DOMAIN-SUFFIX,apm3.music.163.com
+DOMAIN-SUFFIX,interface.music.163.com
+DOMAIN-SUFFIX,interface3.music.163.com
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.163.com.163jiasu.com
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,mam.netease.com
+DOMAIN-SUFFIX,yun-app.net
+DOMAIN-SUFFIX,api.k.163.com
+DOMAIN-SUFFIX,api2.music.163.com
+DOMAIN-SUFFIX,ac.dun.163yun.com
+DOMAIN-SUFFIX,crash.163.com
+DOMAIN-SUFFIX,clientlog.music.163.com
+DOMAIN-SUFFIX,clientlog3.music.163.com
+DOMAIN-SUFFIX,httpdns.n.netease.com
+DOMAIN-SUFFIX,st.music.163.com
+DOMAIN-SUFFIX,mam6.netease.com
+DOMAIN-SUFFIX,lbs.netease.im
+DOMAIN-SUFFIX,nstool.netease.com
+DOMAIN-SUFFIX,nstool.yqkk.link
+DOMAIN-SUFFIX,nstool.zhuanzfx.com
+DOMAIN-SUFFIX,nstool.haowu.link
+DOMAIN-SUFFIX,nstool.321fenx.com
+DOMAIN-SUFFIX,nstool.laiqukankan.com
+
+# CIDR规则
 IP-CIDR,101.71.154.241/32
 IP-CIDR,103.126.92.13/32
 IP-CIDR,103.126.92.132/31
