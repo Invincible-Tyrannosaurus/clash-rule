@@ -30,6 +30,18 @@ DOMAIN-SUFFIX,nstool.zhuanzfx.com
 DOMAIN-SUFFIX,nstool.haowu.link
 DOMAIN-SUFFIX,nstool.321fenx.com
 DOMAIN-SUFFIX,nstool.laiqukankan.com
+HOST, interface3.music.163.com.163jiasu.com
+HOST,iadmat.nosdn.127.net
+HOST,netease.ugcvideoss.ourdvs.com
+HOST-SUFFIX,163yun.com
+HOST-SUFFIX,api.iplay.163.com
+HOST-SUFFIX,hz.netease.com
+HOST-SUFFIX,mam.netease.com
+HOST-SUFFIX,music.126.com
+HOST-SUFFIX,music.126.net
+HOST-SUFFIX,music.163.com
+HOST-SUFFIX,music.163.com.163jiasu.com
+HOST-KEYWORD,netease
 
 # CIDR规则
 IP-CIDR,39.105.63.80/32,no-resolve
