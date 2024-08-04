@@ -63,7 +63,7 @@ DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,ptchina.org
 
 ##> 低端影视
-DOMAIN-SUFFIX,ddrk.me
+DOMAIN-KEYWORD,ddys
 
 ##> Transmission 端口检测
 DOMAIN-SUFFIX,portcheck.transmissionbt.com
