@@ -91,10 +91,6 @@ DOMAIN-SUFFIX,daliansky.net
 ##》 不蒜子
 DOMAIN-SUFFIX,busuanzi.ibruce.info
 
-##》 5278
-DOMAIN-SUFFIX,polyfill.io
-DOMAIN-SUFFIX,hboav.com
-
 # V1订阅
 DOMAIN-SUFFIX,v1.mk
 
