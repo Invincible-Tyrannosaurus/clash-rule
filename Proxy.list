@@ -7,6 +7,10 @@ DOMAIN-KEYWORD,omdbapi
 DOMAIN-KEYWORD,tmdb
 DOMAIN-KEYWORD,theaudiodb.com
 
+##》 5278
+DOMAIN-SUFFIX,polyfill.io
+DOMAIN-SUFFIX,hboav.com
+
 ##》 微软网络连接
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
