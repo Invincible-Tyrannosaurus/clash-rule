@@ -1,0 +1,14 @@
+## > 东航
+DOMAIN-KEYWORD,ceair
+
+## > PLEX
+DOMAIN-SUFFIX,plex.tv
+
+##> 低端影视
+DOMAIN-KEYWORD,ddys
+
+##> Transmission 端口检测
+DOMAIN-SUFFIX,portcheck.transmissionbt.com
+
+##》 openos
+DOMAIN-SUFFIX,openos.org
