@@ -15,37 +15,14 @@ DOMAIN-SUFFIX,account.synology.com
 ## > 群辉cloudsync同步
 DOMAIN-SUFFIX,cloudsync-tw.synology.com
 
-## > 懒得勤快
-DOMAIN-KEYWORD,masuit
-DOMAIN-SUFFIX,ldqk.xyz
-
 ##> PT直连
-
-DOMAIN-SUFFIX,t.pthome.org
-DOMAIN-KEYWORD,keepfrds
+DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,hdcmct.org
 DOMAIN-SUFFIX,leniter.org
-DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,haidan.video
-DOMAIN-SUFFIX,kamept.com
-DOMAIN-SUFFIX,bemaniso.ws
-DOMAIN-SUFFIX,aither.cc
-DOMAIN-SUFFIX,brokenstones.club
-DOMAIN-SUFFIX,hdf.world
-DOMAIN-SUFFIX,snakepop.art
-DOMAIN-SUFFIX,teamhd.org
-DOMAIN-SUFFIX,sugoimusic.me
-DOMAIN-SUFFIX,greatposterwall.com
-DOMAIN-SUFFIX,cgpeers.to
-DOMAIN-SUFFIX,jptv.club
-DOMAIN-SUFFIX,morethantv.me
 DOMAIN-SUFFIX,htpt.cc
 DOMAIN-SUFFIX,hd.ai
-DOMAIN-SUFFIX,audiences.me
-DOMAIN-SUFFIX,mkrobot.org
-DOMAIN-SUFFIX,hhanclub.top
 DOMAIN-SUFFIX,hdpt.xyz
-DOMAIN-SUFFIX,gainbound.net
 DOMAIN-SUFFIX,carpt.net
 DOMAIN-SUFFIX,oshen.win
 DOMAIN-SUFFIX,wintersakura.net
@@ -56,14 +33,12 @@ DOMAIN-SUFFIX,piggo.me
 DOMAIN-SUFFIX,nginx2.azurewebsites.net
 DOMAIN-SUFFIX,happyfappy.org
 DOMAIN-SUFFIX,ultrahd.net
-DOMAIN-KEYWORD,chdbits
 DOMAIN-SUFFIX,hdfun.me
-DOMAIN-SUFFIX,hdatmos.club
-DOMAIN-SUFFIX,hhan.club
 DOMAIN-SUFFIX,api.staticj.top
 DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,ptchina.org
+DOMAIN-SUFFIX,hdvideo.one
+DOMAIN-SUFFIX,pt.2xfree.org
 
 ##> 低端影视
 DOMAIN-KEYWORD,ddys
@@ -97,13 +72,9 @@ DOMAIN-SUFFIX,busuanzi.ibruce.info
 # V1订阅
 DOMAIN-SUFFIX,v1.mk
 
-# 飞客论坛
-DOMAIN-SUFFIX,flyert.com
-
 DOMAIN-SUFFIX,shizuku.ml
 DOMAIN-KEYWORD,kingran
 DOMAIN-SUFFIX,geili.me
-DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,momoe.ml
 DOMAIN-SUFFIX,nolanstore.top
 DOMAIN-SUFFIX,ptpimg.me
@@ -118,10 +89,7 @@ DOMAIN-SUFFIX,api.youxiaohou.com
 DOMAIN-SUFFIX,tr.abiir.top
 DOMAIN-SUFFIX,23img.com
 DOMAIN-SUFFIX,ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz
-DOMAIN-SUFFIX,gamersky.com
-DOMAIN-SUFFIX,cowlevel.net
 DOMAIN-SUFFIX,fakerengine.com
-DOMAIN-SUFFIX,hdvideo.one
 DOMAIN-KEYWORD,sifang115
 DOMAIN-KEYWORD,mypikpak
 DOMAIN-KEYWORD,pikpak
@@ -130,7 +98,6 @@ DOMAIN-SUFFIX,ggdassets.gaggle.fun
 DOMAIN-SUFFIX,api.stentvessel.club
 DOMAIN-SUFFIX,limbopro.com
 DOMAIN-SUFFIX,api.revenuecat.com
-DOMAIN-SUFFIX,pt.2xfree.org
 DOMAIN-SUFFIX,api.iliya.cf
 DOMAIN-SUFFIX,api.sunrise-sunset.org
 DOMAIN-SUFFIX,sunrise-sunset.org
@@ -200,7 +167,6 @@ DOMAIN-SUFFIX,jptvts.us
 DOMAIN-SUFFIX,sub.nysubs.xyz
 DOMAIN-SUFFIX,moewah.com
 
-DOMAIN-KEYWORD,longbridge
 DOMAIN-SUFFIX,heimuer.tv
 DOMAIN-SUFFIX,huawei8.live
 DOMAIN-SUFFIX,360zy.com
@@ -210,92 +176,5 @@ DOMAIN-SUFFIX,hmrvideo.com
 
 DOMAIN-SUFFIX,weather.istatmenus.app
 
-DOMAIN-SUFFIX,embyplus.org
-
-
-# ImmortalWrt 在线更新服务
-# DOMAIN-SUFFIX,sysupgrade.kyarucloud.moe
-
-# ImmortalWrt 软件仓库
-DOMAIN-SUFFIX,immortalwrt.org
-DOMAIN-SUFFIX,vsean.net
-
-# GitHub CDN
-DOMAIN-SUFFIX,jsdelivr.net
-
-# 机场域名
-DOMAIN-SUFFIX,dogsvip.site
-
-# 猫眼浏览器
-DOMAIN-SUFFIX,catsxp.com
-
-# 其他域名
-DOMAIN-SUFFIX,kit327.com
-
-# 暴雪战网国际服下载节点
-DOMAIN-SUFFIX,blizzard.gcdn.cloudn.co.kr
-DOMAIN-SUFFIX,level3.blizzard.com
-DOMAIN-SUFFIX,kr.cdn.blizzard.com
-DOMAIN-SUFFIX,us.cdn.blizzard.com
-DOMAIN-SUFFIX,eu.cdn.blizzard.com
-IP-CIDR,137.221.64.0/24,no-resolve
-IP-CIDR,8.251.135.126/32,no-resolve
-IP-CIDR,8.251.246.126/32,no-resolve
-
-# EA-Desktop 下载节点
-DOMAIN-SUFFIX,origin-a.akamaihd.net
-IP-CIDR,104.75.169.19/32,no-resolve
-
-# 微软飞行模拟 2020 游戏内下载 CDN
-DOMAIN,pf-cdn-content-prod.azureedge.net
-
-# 松下智能家居
-DOMAIN-SUFFIX,psmartcloud.com
-
-# 暴雪战网国服相关
-DOMAIN-SUFFIX,netease.com
-DOMAIN-SUFFIX,leihuo.netease.com
-
-# PT 下载相关
-DOMAIN-KEYWORD,tracker
-
-# Akamai CDN
-DOMAIN-SUFFIX,akamaihd.net
-
-# FinalShell
-IP-CIDR,5.5.5.5/32,no-resolve
-
-# Emby 小雅 相关
-DOMAIN-SUFFIX,ddsrem.com
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ggbond.org
-DOMAIN-SUFFIX,nn.ci
-DOMAIN-SUFFIX,xhofe.top
-DOMAIN-SUFFIX,wwwh.eu.org
-DOMAIN-SUFFIX,1996999.xyz
-
 # IPTV 相关
 DOMAIN-SUFFIX,112114.xyz
-
-# 国内 CDN
-DOMAIN-SUFFIX,cjjd19.com
-
-# UniGetUI
-DOMAIN-SUFFIX,powershellgallery.com
-
-# Dell
-DOMAIN-SUFFIX,dell.com
-
-# Emby 直连
-# MeFun
-IP-CIDR,218.78.7.16/32,no-resolve
-IP-CIDR,98.126.27.164/32,no-resolve
-
-# MeFun VIP Porn 资源
-DOMAIN-SUFFIX,sptv.ii00.cc
-
-# MeFun VIP General 资源
-DOMAIN-SUFFIX,sgtv.ii00.cc
-
-# MeFun VIP Music 资源
-DOMAIN-SUFFIX,cn-music.mefun.vip
