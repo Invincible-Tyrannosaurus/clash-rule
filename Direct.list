@@ -15,32 +15,6 @@ DOMAIN-SUFFIX,account.synology.com
 ## > 群辉cloudsync同步
 DOMAIN-SUFFIX,cloudsync-tw.synology.com
 
-##> PT直连
-DOMAIN-KEYWORD,tracker
-DOMAIN-SUFFIX,hdcmct.org
-DOMAIN-SUFFIX,leniter.org
-DOMAIN-SUFFIX,haidan.video
-DOMAIN-SUFFIX,htpt.cc
-DOMAIN-SUFFIX,hd.ai
-DOMAIN-SUFFIX,hdpt.xyz
-DOMAIN-SUFFIX,carpt.net
-DOMAIN-SUFFIX,oshen.win
-DOMAIN-SUFFIX,wintersakura.net
-DOMAIN-SUFFIX,itzmx.com
-DOMAIN-SUFFIX,hdmayi.com
-DOMAIN-SUFFIX,dragonhd.xyz
-DOMAIN-SUFFIX,piggo.me
-DOMAIN-SUFFIX,nginx2.azurewebsites.net
-DOMAIN-SUFFIX,happyfappy.org
-DOMAIN-SUFFIX,ultrahd.net
-DOMAIN-SUFFIX,hdfun.me
-DOMAIN-SUFFIX,api.staticj.top
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,ptchina.org
-DOMAIN-SUFFIX,hdvideo.one
-DOMAIN-SUFFIX,pt.2xfree.org
-DOMAIN-SUFFIX,t.pthome.org
-
 ##> 低端影视
 DOMAIN-KEYWORD,ddys
 
@@ -176,6 +150,3 @@ DOMAIN-SUFFIX,3img.ffzy888.com
 DOMAIN-SUFFIX,hmrvideo.com
 
 DOMAIN-SUFFIX,weather.istatmenus.app
-
-# DDNS
-DOMAIN-SUFFIX,91fb.top
