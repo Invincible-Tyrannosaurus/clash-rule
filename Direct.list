@@ -2,47 +2,47 @@
 DOMAIN-KEYWORD,ceair
 
 ## > PT 站
-DOMAIN-SUFFIX,1ptba.com             # 1PTBar
-DOMAIN-SUFFIX,52pt.site             # 52PT
-DOMAIN-SUFFIX,pt.btschool.club      # BTSCHOOL
-DOMAIN-SUFFIX,discfan.net           # DiscFan
-DOMAIN-SUFFIX,haidan.video          # HaiDan
-DOMAIN-SUFFIX,hdatmos.club          # HDATMOS
-DOMAIN-SUFFIX,hdfans.org            # HDFans
-DOMAIN-SUFFIX,hdhome.org            # HDHome
-DOMAIN-SUFFIX,hdsky.me              # HDSky
-DOMAIN-SUFFIX,hdvideo.one           # HDVideo
-DOMAIN-SUFFIX,hdzone.me             # HDZone
-DOMAIN-SUFFIX,ourbits.club          # OurBits
-DOMAIN-SUFFIX,pt.keepfrds.com       # PT@KEEPFRDS
-DOMAIN-SUFFIX,ptchina.org           # PTChina
-DOMAIN-SUFFIX,pterclub.com          # PTer
-DOMAIN-SUFFIX,pthome.net            # PTHome
-DOMAIN-SUFFIX,pttime.org            # pttime
-DOMAIN-SUFFIX,springsunday.net      # SSD
-DOMAIN-SUFFIX,totheglory.im         # TTG
-DOMAIN-SUFFIX,u2.dmhy.org           # U2
-DOMAIN-SUFFIX,ultrahd.net           # UltraHD
-DOMAIN-SUFFIX,wintersakura.net      # wintersakura
-DOMAIN-SUFFIX,pt.hdbd.us            # 伊甸园
-DOMAIN-SUFFIX,tjupt.org             # 北洋园
-DOMAIN-SUFFIX,beitai.pt             # 备胎
-DOMAIN-SUFFIX,hhanclub.top          # 憨憨
-DOMAIN-SUFFIX,ptsbao.club           # 烧包
-DOMAIN-SUFFIX,pt.soulvoice.club     # 聆音Club
-DOMAIN-SUFFIX,carpt.net             # CARPT
-DOMAIN-SUFFIX,ptchdbits.co          # PTHDBits
-DOMAIN-SUFFIX,dragonhd.xyz          # DragonHD
-DOMAIN-SUFFIX,hdcity.leniter.org    # HDCity
-DOMAIN-SUFFIX,gamegamept.com        # GameGamePT
-DOMAIN-SUFFIX,pt.hdpost.top         # PT.HDPost
-DOMAIN-SUFFIX,kp.m-team.cc          # KP.M-Team
-DOMAIN-SUFFIX,oshen.win             # OshEN
-DOMAIN-SUFFIX,hdfun.me             # HDFun
-DOMAIN-SUFFIX,happyfappy.org       # HappyFappy
-DOMAIN-SUFFIX,nicept.net            # NicePT
-DOMAIN-SUFFIX,pussytorrents.org     # pussytorrents
-DOMAIN-SUFFIX,open.cd              # OpenCD
+DOMAIN-SUFFIX,1ptba.com
+DOMAIN-SUFFIX,52pt.site
+DOMAIN-SUFFIX,pt.btschool.club
+DOMAIN-SUFFIX,discfan.net
+DOMAIN-SUFFIX,haidan.video
+DOMAIN-SUFFIX,hdatmos.club
+DOMAIN-SUFFIX,hdfans.org
+DOMAIN-SUFFIX,hdhome.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,hdvideo.one
+DOMAIN-SUFFIX,hdzone.me
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,pt.keepfrds.com
+DOMAIN-SUFFIX,ptchina.org
+DOMAIN-SUFFIX,pterclub.com
+DOMAIN-SUFFIX,pthome.net
+DOMAIN-SUFFIX,pttime.org
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,u2.dmhy.org
+DOMAIN-SUFFIX,ultrahd.net
+DOMAIN-SUFFIX,wintersakura.net
+DOMAIN-SUFFIX,pt.hdbd.us
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,beitai.pt
+DOMAIN-SUFFIX,hhanclub.top
+DOMAIN-SUFFIX,ptsbao.club
+DOMAIN-SUFFIX,pt.soulvoice.club
+DOMAIN-SUFFIX,carpt.net
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,dragonhd.xyz
+DOMAIN-SUFFIX,hdcity.leniter.org
+DOMAIN-SUFFIX,gamegamept.com
+DOMAIN-SUFFIX,pt.hdpost.top
+DOMAIN-SUFFIX,kp.m-team.cc
+DOMAIN-SUFFIX,oshen.win
+DOMAIN-SUFFIX,hdfun.me
+DOMAIN-SUFFIX,happyfappy.org
+DOMAIN-SUFFIX,nicept.net
+DOMAIN-SUFFIX,pussytorrents.org
+DOMAIN-SUFFIX,open.cd
 
 
 ## > PLEX
