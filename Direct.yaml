@@ -1,0 +1,149 @@
+payload:
+## > 东航
+  - DOMAIN-KEYWORD,ceair
+
+## > DDNS
+  - DOMAIN-SUFFIX,91fb.top
+
+## > PLEX
+  - DOMAIN-SUFFIX,plex.tv
+
+## > 群辉远程登录
+  - DOMAIN-SUFFIX,checkip.dyndns.org
+  - DOMAIN-SUFFIX,checkip.synology.com
+  - DOMAIN-SUFFIX,checkipv6.synology.com
+  - DOMAIN-SUFFIX,checkport.synology.com
+  - DOMAIN-SUFFIX,ddns.synology.com
+  - DOMAIN-SUFFIX,account.synology.com
+
+## > 群辉cloudsync同步
+  - DOMAIN-SUFFIX,cloudsync-tw.synology.com
+
+##> 低端影视
+  - DOMAIN-KEYWORD,ddys
+
+##> Transmission 端口检测
+  - DOMAIN-SUFFIX,portcheck.transmissionbt.com
+
+##> IP检测
+  - DOMAIN-SUFFIX,api.ipify.org
+
+##》 EMBY
+  - DOMAIN-SUFFIX,connect.emby.media
+  - DOMAIN-SUFFIX,embydata.com
+  - DOMAIN-SUFFIX,emby.tv
+
+##》 隔壁网
+  - DOMAIN-SUFFIX,gebi1.com
+
+##》 openos
+  - DOMAIN-SUFFIX,openos.org
+
+##》 雷蛇
+  - DOMAIN-SUFFIX,razersynapse.com
+
+##》 黑果小兵
+  - DOMAIN-SUFFIX,daliansky.net
+  - DOMAIN-SUFFIX,busuanzi.ibruce.info
+  - DOMAIN-SUFFIX,v1.mk
+  - DOMAIN-SUFFIX,shizuku.ml
+  - DOMAIN-KEYWORD,kingran
+  - DOMAIN-SUFFIX,geili.me
+  - DOMAIN-SUFFIX,momoe.ml
+  - DOMAIN-SUFFIX,nolanstore.top
+  - DOMAIN-SUFFIX,ptpimg.me
+  - DOMAIN-SUFFIX,niupic.com
+  - DOMAIN-SUFFIX,ccache.org
+  - DOMAIN-SUFFIX,z4a.net
+  - DOMAIN-SUFFIX,uuu.ovh
+  - DOMAIN-SUFFIX,imgurl.org
+  - DOMAIN-SUFFIX,gordon2000.com
+  - DOMAIN-SUFFIX,appslist.heimdall.site
+  - DOMAIN-SUFFIX,api.youxiaohou.com
+  - DOMAIN-SUFFIX,tr.abiir.top
+  - DOMAIN-SUFFIX,23img.com
+  - DOMAIN-SUFFIX,ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz
+  - DOMAIN-SUFFIX,fakerengine.com
+  - DOMAIN-KEYWORD,sifang115
+  - DOMAIN-KEYWORD,mypikpak
+  - DOMAIN-KEYWORD,pikpak
+  - DOMAIN-KEYWORD,groueta
+  - DOMAIN-SUFFIX,ggdassets.gaggle.fun
+  - DOMAIN-SUFFIX,api.stentvessel.club
+  - DOMAIN-SUFFIX,limbopro.com
+  - DOMAIN-SUFFIX,api.revenuecat.com
+  - DOMAIN-SUFFIX,api.iliya.cf
+  - DOMAIN-SUFFIX,api.sunrise-sunset.org
+  - DOMAIN-SUFFIX,sunrise-sunset.org
+  - DOMAIN-SUFFIX,g-api.kwai.com
+  - DOMAIN-SUFFIX,www.evodevicemanager.com
+  - DOMAIN-SUFFIX,locationiq.com
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,uupdump.net
+  - DOMAIN-SUFFIX,uupdump.cn
+  - DOMAIN-SUFFIX,parsec.app
+  - DOMAIN-SUFFIX,1plus.io
+  - DOMAIN-SUFFIX,aptvapp.com
+  - DOMAIN-SUFFIX,heytapmobile.com
+  - DOMAIN-SUFFIX,tivimate.b4a.io
+  - DOMAIN-SUFFIX,img.ptdream.net
+  - DOMAIN-SUFFIX,mikanani.me
+  - DOMAIN-SUFFIX,mp4ba.vip
+  - DOMAIN-SUFFIX,btsow.quest
+  - DOMAIN-SUFFIX,katcr.to
+  - DOMAIN-SUFFIX,hdpianyuan.com
+  - DOMAIN-SUFFIX,miobt.com
+  - DOMAIN-SUFFIX,api.bgm.tv
+  - DOMAIN-SUFFIX,api.meta.ndmdhs.com
+  - DOMAIN-SUFFIX,cdn.meta.ndmdhs.com
+  - DOMAIN-SUFFIX,api.star-history.com
+  - DOMAIN-SUFFIX,1000qm.vip
+  - DOMAIN-SUFFIX,picgd.com
+  - DOMAIN-SUFFIX,img.picgo.net
+  - DOMAIN-SUFFIX,img.chkaja.com
+  - DOMAIN-SUFFIX,gravatar.kuibu.net
+  - DOMAIN-SUFFIX,iili.io
+  - DOMAIN-SUFFIX,ooo.0o0.ooo
+  - DOMAIN-SUFFIX,4k1080.com
+  - DOMAIN-SUFFIX,freeimage.host
+  - DOMAIN-SUFFIX,imgbox.com
+  - DOMAIN-SUFFIX,s1.ax1x.com
+  - DOMAIN-SUFFIX,imgloc.com
+  - DOMAIN-SUFFIX,imgtp.com
+  - DOMAIN-SUFFIX,j000e.com
+  - DOMAIN-SUFFIX,images3.static-bluray.com
+  - DOMAIN-SUFFIX,oyunfor.com
+  - DOMAIN-SUFFIX,cp.v2-tun.com
+  - DOMAIN-SUFFIX,cp.v2tun.us
+  - DOMAIN-SUFFIX,mtcgame.com
+  - DOMAIN-SUFFIX,app.trydome.io
+  - DOMAIN-SUFFIX,pcnow.cc
+  - DOMAIN-SUFFIX,voce.chat
+  - DOMAIN-SUFFIX,cdn.plyr.io
+  - DOMAIN-SUFFIX,static.bridger.chat
+  - DOMAIN-SUFFIX,noembed.com
+  - DOMAIN-SUFFIX,getmythemes.com
+  - DOMAIN-SUFFIX,blog.laoda.de
+  - DOMAIN-SUFFIX,opex-service-sg.allawnos.com
+  - DOMAIN-SUFFIX,api.v2tun-163cdn.top
+  - DOMAIN-SUFFIX,9dmsgame.com
+  - DOMAIN-SUFFIX,pgame.vip
+  - DOMAIN-SUFFIX,apiauth.quickconnect.to
+  - DOMAIN-SUFFIX,opensubtitles.org
+  - DOMAIN-SUFFIX,img.laoda.de
+  - DOMAIN-SUFFIX,lawbook.cf
+  - DOMAIN-SUFFIX,weatheroffer.com
+  - DOMAIN-SUFFIX,kejiwanjia.net
+  - DOMAIN-SUFFIX,jinky.top
+  - DOMAIN-SUFFIX,jptvts.us
+  - DOMAIN-SUFFIX,sub.nysubs.xyz
+  - DOMAIN-SUFFIX,moewah.com
+  - DOMAIN-SUFFIX,heimuer.tv
+  - DOMAIN-SUFFIX,huawei8.live
+  - DOMAIN-SUFFIX,360zy.com
+  - DOMAIN-SUFFIX,xiaohuangrentv.com
+  - DOMAIN-SUFFIX,3img.ffzy888.com
+  - DOMAIN-SUFFIX,hmrvideo.com
+  - DOMAIN-SUFFIX,weather.istatmenus.app
+  - DOMAIN-SUFFIX,api.stentvessel.club
+  - DOMAIN-SUFFIX,wd-red.com
