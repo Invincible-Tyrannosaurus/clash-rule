@@ -1,0 +1,78 @@
+payload:
+
+## > Emby 等刮削
+  - DOMAIN-KEYWORD,tvdb
+  - DOMAIN-KEYWORD,fanart
+  - DOMAIN-KEYWORD,thetvdb
+  - DOMAIN-KEYWORD,themoviedb
+  - DOMAIN-KEYWORD,omdbapi
+  - DOMAIN-KEYWORD,tmdb
+  - DOMAIN-KEYWORD,theaudiodb.com
+
+##》 5278
+  - DOMAIN-SUFFIX,polyfill.io
+  - DOMAIN-SUFFIX,hboav.com
+
+##》 微软网络连接
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+
+##》 人机验证
+  - DOMAIN-KEYWORD,hcaptcha
+
+  - DOMAIN-SUFFIX,nite07.com
+  - DOMAIN-KEYWORD,roku
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-KEYWORD,freenom
+  - DOMAIN-KEYWORD,18comic
+  - DOMAIN-SUFFIX,avwiki.org
+  - DOMAIN-KEYWORD,wzip
+  - DOMAIN-SUFFIX,v2rayssr.com
+  - DOMAIN-SUFFIX,sehuatang.org
+  - DOMAIN-SUFFIX,nextpt.net
+  - DOMAIN-KEYWORD,quantumult
+  - DOMAIN-SUFFIX,service.2ti.st
+  - DOMAIN-SUFFIX,ierboryt.spphhnhg.top
+  - DOMAIN-SUFFIX,fc2hub.com
+  - DOMAIN-SUFFIX,datasets.imdbws.com
+  - DOMAIN-SUFFIX,imazing.com
+  - DOMAIN-KEYWORD,mxwljsq
+  - DOMAIN-SUFFIX,api.skk.moe
+  - DOMAIN-SUFFIX,avjoy.me
+  - DOMAIN-SUFFIX,raw.iqiq.io
+  - DOMAIN-SUFFIX,img.shields.io
+  - DOMAIN-SUFFIX,ghproxy.net
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-KEYWORD,xtaolabs
+  - DOMAIN-SUFFIX,fp-afd.azureedge.us
+  - DOMAIN-SUFFIX,octocaptcha.com
+  - DOMAIN-SUFFIX,tw.piliapp.com
+  - DOMAIN-SUFFIX,dnsworker.com
+  - DOMAIN-SUFFIX,bzib.nelreports.net
+  - DOMAIN-SUFFIX,indify.co
+  - DOMAIN-SUFFIX,cableav.tv
+  - DOMAIN-SUFFIX,ppa.launchpadcontent.net
+  - DOMAIN-SUFFIX,sleazyfork.org
+  - DOMAIN-SUFFIX,mb3admin.com
+  - DOMAIN-SUFFIX,dns.umbrella.com
+  - DOMAIN-SUFFIX,dns.opendns.com
+  - DOMAIN-SUFFIX,skinny.co
+  - DOMAIN-SUFFIX,fakenamegenerator.com
+  - DOMAIN-SUFFIX,backgroundchecks.org
+  - DOMAIN-SUFFIX,ahhhhfs.com
+  - DOMAIN-SUFFIX,runoutfor.life
+  - DOMAIN-SUFFIX,skinny.co.nz
+  - DOMAIN-SUFFIX,canada.ca
+  - DOMAIN-SUFFIX,ghbtns.com
+  - DOMAIN-SUFFIX,bbs.north-plus.net
+  - DOMAIN-SUFFIX,split.io
+  - DOMAIN-SUFFIX,bullionvault.com
+  - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,bitcoin.com
+  - DOMAIN-SUFFIX,sms-activation-service
+  - DOMAIN-SUFFIX,sms-activate.io
+  - DOMAIN-SUFFIX,sms-activate.ru
+  - DOMAIN-SUFFIX,sms-activate.org
+  - DOMAIN-SUFFIX,naiyovpn.com
+  - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-SUFFIX,masuit.org
