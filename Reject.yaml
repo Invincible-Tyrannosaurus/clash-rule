@@ -1,0 +1,47 @@
+payload:
+
+## > 屏蔽群辉更新
+  - DOMAIN-SUFFIX,update.synology.com
+  - DOMAIN-SUFFIX,update7.synology.com
+  - DOMAIN-SUFFIX,autoupdate7.synology.com
+  - DOMAIN-SUFFIX,autoupdate7.synology.cn
+
+## > 屏蔽Roon
+  - DOMAIN-SUFFIX,accounts5.roonlabs.com
+  - DOMAIN-SUFFIX,updates.roonlabs.com
+
+## > 屏蔽tinymediamanager升级
+  - DOMAIN-SUFFIX,release.tinymediamanager.org
+
+## > 屏蔽easeus激活
+  - DOMAIN-SUFFIX,easeus.com
+  - DOMAIN-SUFFIX,www.easeus.com
+  - DOMAIN-SUFFIX,activation.easeus.com
+  - DOMAIN-SUFFIX,easeus.com.cn
+  - DOMAIN-SUFFIX,www.easeus.com.cn
+  - DOMAIN-SUFFIX,track.easeus.com
+  - DOMAIN-SUFFIX,track.easeus.com.cn
+  - DOMAIN-SUFFIX,api.easeus.com
+  - DOMAIN-SUFFIX,update.easeus.com
+  - DOMAIN-SUFFIX,map2.hwcdn.net
+  - DOMAIN-SUFFIX,easeusinfo.us-east-1.log.aliyuncs.com
+  - DOMAIN-SUFFIX,aaa100cd68bbe03f3.awsglobalaccelerator.com
+  - DOMAIN-SUFFIX,uompro.easeus.com
+  - DOMAIN-SUFFIX,order.easeus.com
+  - DOMAIN-SUFFIX,curl.haxx.se
+  - DOMAIN-SUFFIX,buy.easeus.com
+  - DOMAIN-SUFFIX,v2api-uoss.easeus.com
+
+  - DOMAIN-SUFFIX,electronic.us
+
+## > 屏蔽FinalShell 
+  - DOMAIN-SUFFIX,www.youtusoft.com
+  - DOMAIN-SUFFIX,youtusoft.com
+  - DOMAIN-SUFFIX,hostbuf.com
+  - DOMAIN-SUFFIX,www.hostbuf.com
+  - DOMAIN-SUFFIX,dkys.org
+  - DOMAIN-SUFFIX,tcpspeed.com
+  - DOMAIN-SUFFIX,www.wn1998.com
+  - DOMAIN-SUFFIX,wn1998.com
+  - DOMAIN-SUFFIX,pwlt.wn1998.com
+  - DOMAIN-SUFFIX,backup.www.hostbuf.com
