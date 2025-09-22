@@ -147,3 +147,4 @@ payload:
   - DOMAIN-SUFFIX,weather.istatmenus.app
   - DOMAIN-SUFFIX,api.stentvessel.club
   - DOMAIN-SUFFIX,wd-red.com
+  - DOMAIN-KEYWORD,notion
