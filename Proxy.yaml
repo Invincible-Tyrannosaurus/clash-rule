@@ -77,6 +77,6 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,masuit.org
   - DOMAIN-KEYWORD,discord
-  - DOMAIN-SUFFIX,cp.v2-tun.net
+  - DOMAIN-KEYWORD,cp.v2-tun
   - DOMAIN-SUFFIX,wd-gold.com
   - DOMAIN-SUFFIX,linkcube.org
