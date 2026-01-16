@@ -79,8 +79,7 @@ payload:
   - DOMAIN-SUFFIX,evodevicemanager.com
   - DOMAIN-SUFFIX,locationiq.com
   - DOMAIN-SUFFIX,lencr.org
-  - DOMAIN-SUFFIX,uupdump.net
-  - DOMAIN-SUFFIX,uupdump.cn
+  - DOMAIN-KEYWORD,uupdump
   - DOMAIN-SUFFIX,parsec.app
   - DOMAIN-SUFFIX,1plus.io
   - DOMAIN-SUFFIX,aptvapp.com
@@ -113,8 +112,6 @@ payload:
   - DOMAIN-SUFFIX,j000e.com
   - DOMAIN-SUFFIX,images3.static-bluray.com
   - DOMAIN-SUFFIX,oyunfor.com
-  - DOMAIN-SUFFIX,cp.v2-tun.com
-  - DOMAIN-SUFFIX,cp.v2tun.us
   - DOMAIN-SUFFIX,mtcgame.com
   - DOMAIN-SUFFIX,app.trydome.io
   - DOMAIN-SUFFIX,pcnow.cc
