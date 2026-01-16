@@ -75,7 +75,4 @@ payload:
   - DOMAIN-SUFFIX,naiyovpn.com
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,masuit.org
-  - DOMAIN-KEYWORD,discord
-  - DOMAIN-KEYWORD,v2-tun
-  - DOMAIN-KEYWORD,wd-gold
-  - DOMAIN-KEYWORD,linkcube
+  - DOMAIN-SUFFIX,discord.com
