@@ -68,7 +68,6 @@ payload:
   - DOMAIN-SUFFIX,split.io
   - DOMAIN-SUFFIX,bullionvault.com
   - DOMAIN-SUFFIX,bntrace.com
-  - DOMAIN-SUFFIX,bitcoin.com
   - DOMAIN-SUFFIX,sms-activation-service
   - DOMAIN-SUFFIX,sms-activate.io
   - DOMAIN-SUFFIX,sms-activate.ru
@@ -77,6 +76,6 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,masuit.org
   - DOMAIN-KEYWORD,discord
-  - DOMAIN-KEYWORD,cp.v2-tun
-  - DOMAIN-SUFFIX,wd-gold.com
-  - DOMAIN-SUFFIX,linkcube.org
+  - DOMAIN-KEYWORD,v2-tun
+  - DOMAIN-KEYWORD,wd-gold
+  - DOMAIN-KEYWORD,linkcube
