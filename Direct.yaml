@@ -148,3 +148,6 @@ payload:
   - DOMAIN-SUFFIX,api.stentvessel.club
   - DOMAIN-SUFFIX,wd-red.com
   - DOMAIN-SUFFIX,api.ipapi.is
+  - DOMAIN-KEYWORD,v2-tun
+  - DOMAIN-KEYWORD,wd-gold
+  - DOMAIN-KEYWORD,linkcube
