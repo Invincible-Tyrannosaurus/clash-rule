@@ -1,7 +1,10 @@
 payload:
 ## > 东航
   - DOMAIN-KEYWORD,ceair
-
+  - IP-CIDR,10.31.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  
 ## > DDNS
   - DOMAIN-SUFFIX,7788996.xyz
 
