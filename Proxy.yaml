@@ -85,4 +85,9 @@ payload:
   - DOMAIN-SUFFIX,momotale.com
   - DOMAIN-KEYWORD,civitai
 ##》 Meta.AI
-  - DOMAIN-KEYWORD,muse.ai
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,auth.meta.com
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
