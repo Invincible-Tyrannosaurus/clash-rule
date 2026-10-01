@@ -151,3 +151,5 @@ payload:
   - DOMAIN-KEYWORD,v2-tun
   - DOMAIN-KEYWORD,wd-gold
   - DOMAIN-KEYWORD,linkcube
+  
+  - DOMAIN-SUFFIX,subscribe.insight.synology.com
