@@ -1,0 +1,21 @@
+##》 AI 工具通用规则
+##  没有专属分组的 AI 工具走这里
+##  原 MetaAI.yaml 改名扩展，2026-10-07
+
+payload:
+
+  - DOMAIN-SUFFIX,muse.ai
+
+  - DOMAIN-SUFFIX,hark.com
+
+  - DOMAIN-SUFFIX,meta.ai
+
+  - DOMAIN-SUFFIX,auth.meta.com
+
+  - DOMAIN-SUFFIX,meta.com
+
+  - DOMAIN-SUFFIX,facebook.com
+
+  - DOMAIN-SUFFIX,fbcdn.net
+
+  - DOMAIN-SUFFIX,metaaivm.com
