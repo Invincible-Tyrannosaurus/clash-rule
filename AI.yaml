@@ -6,7 +6,9 @@ payload:
 
   - DOMAIN-SUFFIX,muse.ai
 
+  # Hark
   - DOMAIN-SUFFIX,hark.com
+  - IP-CIDR,104.18.20.37/32
 
   - DOMAIN-SUFFIX,meta.ai
 
