@@ -152,3 +152,7 @@ payload:
   - DOMAIN-KEYWORD,linkcube
   
   - DOMAIN-SUFFIX,subscribe.insight.synology.com
+
+## > Tailscale
+ - DOMAIN-SUFFIX,tailscale.com
+ - DOMAIN-SUFFIX,tailscale.io
