@@ -156,3 +156,8 @@ payload:
 ## > Tailscale
  - DOMAIN-SUFFIX,tailscale.com
  - DOMAIN-SUFFIX,tailscale.io
+
+## > macOS 工具
+ - DOMAIN-SUFFIX,macbartender.com
+ - DOMAIN-SUFFIX,caldis.me
+ - DOMAIN-SUFFIX,nssurge.com
