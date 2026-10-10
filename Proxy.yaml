@@ -84,3 +84,6 @@ payload:
   - DOMAIN-SUFFIX,fanzisima.xyz
   - DOMAIN-SUFFIX,momotale.com
   - DOMAIN-KEYWORD,civitai
+
+##》 漏网之鱼 2026-10-11 漏网之鱼:Product Hunt,直连被Cloudflare 403拦截,走代理
+  - DOMAIN-SUFFIX,producthunt.com
