@@ -154,10 +154,15 @@ payload:
   - DOMAIN-SUFFIX,subscribe.insight.synology.com
 
 ## > Tailscale
- - DOMAIN-SUFFIX,tailscale.com
- - DOMAIN-SUFFIX,tailscale.io
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,tailscale.io
 
 ## > macOS 工具
- - DOMAIN-SUFFIX,macbartender.com
- - DOMAIN-SUFFIX,caldis.me
- - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-SUFFIX,macbartender.com
+  - DOMAIN-SUFFIX,caldis.me
+  - DOMAIN-SUFFIX,nssurge.com
+
+##》 漏网之鱼 2026-10-11 漏网之鱼:香港SEO-API/Cloudflare图床/转运官网,直连
+  - DOMAIN-SUFFIX,tudouseo.com
+  - DOMAIN-SUFFIX,hanyuai.com
+  - DOMAIN-SUFFIX,buyandship.today
