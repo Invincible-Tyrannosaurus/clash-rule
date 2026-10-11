@@ -87,3 +87,6 @@ payload:
 
 ##》 漏网之鱼 2026-10-11 漏网之鱼:Product Hunt,直连被Cloudflare 403拦截,走代理
   - DOMAIN-SUFFIX,producthunt.com
+
+##》 漏网之鱼 2026-10-11 漏网之鱼:Homebrew官方
+  - DOMAIN-SUFFIX,brew.sh
