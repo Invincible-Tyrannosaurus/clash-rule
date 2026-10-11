@@ -1,51 +1,119 @@
 payload:
 
-## > 屏蔽群辉更新
+## > 屏蔽群晖更新
+
 ## > - DOMAIN-SUFFIX,update.synology.com
 ## > - DOMAIN-SUFFIX,update7.synology.com
 ## > - DOMAIN-SUFFIX,autoupdate7.synology.com
 ## > - DOMAIN-SUFFIX,autoupdate7.synology.cn
 
 ## > 屏蔽Roon
+
+  # Roon 账号服务
   - DOMAIN-SUFFIX,accounts5.roonlabs.com
+
+  # Roon 更新
   - DOMAIN-SUFFIX,updates.roonlabs.com
 
 ## > 屏蔽tinymediamanager升级
+
+  # TinyMediaManager 更新
   - DOMAIN-SUFFIX,release.tinymediamanager.org
 
 ## > 屏蔽easeus激活
+
+  # EaseUS（激活/统计相关）
   - DOMAIN-SUFFIX,easeus.com
+
+  # EaseUS 官网
   - DOMAIN-SUFFIX,www.easeus.com
+
+  # EaseUS 激活
   - DOMAIN-SUFFIX,activation.easeus.com
+
+  # EaseUS 中国官网
   - DOMAIN-SUFFIX,easeus.com.cn
+
+  # EaseUS 中国官网
   - DOMAIN-SUFFIX,www.easeus.com.cn
+
+  # EaseUS 追踪统计
   - DOMAIN-SUFFIX,track.easeus.com
+
+  # EaseUS 追踪统计（中国）
   - DOMAIN-SUFFIX,track.easeus.com.cn
+
+  # EaseUS API
   - DOMAIN-SUFFIX,api.easeus.com
+
+  # EaseUS 更新
   - DOMAIN-SUFFIX,update.easeus.com
+
+  # 华为云 CDN（EaseUS 调用）
   - DOMAIN-SUFFIX,map2.hwcdn.net
+
+  # EaseUS 日志上报
   - DOMAIN-SUFFIX,easeusinfo.us-east-1.log.aliyuncs.com
+
+  # AWS 加速（EaseUS 调用）
   - DOMAIN-SUFFIX,aaa100cd68bbe03f3.awsglobalaccelerator.com
+
+  # EaseUS 运营统计
   - DOMAIN-SUFFIX,uompro.easeus.com
+
+  # EaseUS 订单
   - DOMAIN-SUFFIX,order.easeus.com
+
+  # curl 官网（EaseUS 相关调用）
   - DOMAIN-SUFFIX,curl.haxx.se
+
+  # EaseUS 购买页
   - DOMAIN-SUFFIX,buy.easeus.com
+
+  # EaseUS API
   - DOMAIN-SUFFIX,v2api-uoss.easeus.com
 
+## > 杂项
+
+  # Electronic Team（USB/串口网络工具厂商）
   - DOMAIN-SUFFIX,electronic.us
 
-## > 屏蔽FinalShell 
+## > 屏蔽FinalShell
+
+  # FinalShell 官网（youtusoft）
   - DOMAIN-SUFFIX,www.youtusoft.com
+
+  # FinalShell 官网（youtusoft）
   - DOMAIN-SUFFIX,youtusoft.com
+
+  # FinalShell 相关（hostbuf）
   - DOMAIN-SUFFIX,hostbuf.com
+
+  # FinalShell 相关（hostbuf）
   - DOMAIN-SUFFIX,www.hostbuf.com
+
+  # FinalShell 相关（dkys）
   - DOMAIN-SUFFIX,dkys.org
+
+  # FinalShell 测速
   - DOMAIN-SUFFIX,tcpspeed.com
+
+  # FinalShell 相关（wn1998）
   - DOMAIN-SUFFIX,www.wn1998.com
+
+  # FinalShell 相关（wn1998）
   - DOMAIN-SUFFIX,wn1998.com
+
+  # FinalShell 相关（wn1998）
   - DOMAIN-SUFFIX,pwlt.wn1998.com
+
+  # FinalShell 相关（hostbuf 备份）
   - DOMAIN-SUFFIX,backup.www.hostbuf.com
 
-##》 漏网之鱼 2026-10-11 漏网之鱼:纯遥测上报拒绝
+## > 漏网之鱼 2026-10-11
+
+  # Mapbox 遥测上报
   - DOMAIN-SUFFIX,events.mapbox.com
+
+  # NEL 网络错误报告
   - DOMAIN-SUFFIX,nelreports.net

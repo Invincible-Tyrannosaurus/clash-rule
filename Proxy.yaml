@@ -1,98 +1,227 @@
 payload:
 
 ## > Emby 等刮削
+
+  # TheTVDB（刮削源关键词）
   - DOMAIN-KEYWORD,tvdb
+
+  # Fanart（刮削源关键词）
   - DOMAIN-KEYWORD,fanart
+
+  # TheTVDB（刮削源关键词）
   - DOMAIN-KEYWORD,thetvdb
+
+  # TMDB（刮削源关键词）
   - DOMAIN-KEYWORD,themoviedb
+
+  # OMDb API（刮削源关键词）
   - DOMAIN-KEYWORD,omdbapi
+
+  # TMDB（刮削源关键词）
   - DOMAIN-KEYWORD,tmdb
+
+  # TheAudioDB（刮削源关键词）
   - DOMAIN-KEYWORD,theaudiodb.com
 
-##》 5278
+  # Emby 官方授权验证服务
+  - DOMAIN-SUFFIX,mb3admin.com
+
+## > 我愛78論壇（5278.cc）
+
+  # Polyfill JS 库 CDN
   - DOMAIN-SUFFIX,polyfill.io
+
+  # 跳转域
   - DOMAIN-SUFFIX,hboav.com
 
-##》 微软网络连接
-  - DOMAIN-SUFFIX,msftconnecttest.com
+## > 微软网络连接
+
+  # 状态检测
   - DOMAIN-SUFFIX,msftncsi.com
 
-##》 人机验证
+  # 微软 NEL 网络错误遥测上报端点
+  - DOMAIN-SUFFIX,bzib.nelreports.net
+
+## > hCaptcha 人机验证
+
   - DOMAIN-KEYWORD,hcaptcha
 
-  - DOMAIN-SUFFIX,nite07.com
-  - DOMAIN-KEYWORD,roku
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-KEYWORD,freenom
-  - DOMAIN-KEYWORD,18comic
-  - DOMAIN-SUFFIX,avwiki.org
-  - DOMAIN-KEYWORD,wzip
-  - DOMAIN-SUFFIX,v2rayssr.com
-  - DOMAIN-SUFFIX,sehuatang.org
-  - DOMAIN-SUFFIX,nextpt.net
-  - DOMAIN-KEYWORD,quantumult
-  - DOMAIN-SUFFIX,service.2ti.st
-  - DOMAIN-SUFFIX,ierboryt.spphhnhg.top
-  - DOMAIN-SUFFIX,fc2hub.com
-  - DOMAIN-SUFFIX,datasets.imdbws.com
-  - DOMAIN-SUFFIX,imazing.com
-  - DOMAIN-KEYWORD,mxwljsq
-  - DOMAIN-SUFFIX,api.skk.moe
-  - DOMAIN-SUFFIX,avjoy.me
-  - DOMAIN-SUFFIX,raw.iqiq.io
-  - DOMAIN-SUFFIX,img.shields.io
-  - DOMAIN-SUFFIX,ghproxy.net
-  - DOMAIN-SUFFIX,docker.io
-  - DOMAIN-KEYWORD,xtaolabs
-  - DOMAIN-SUFFIX,fp-afd.azureedge.us
-  - DOMAIN-SUFFIX,octocaptcha.com
-  - DOMAIN-SUFFIX,tw.piliapp.com
-  - DOMAIN-SUFFIX,dnsworker.com
-  - DOMAIN-SUFFIX,bzib.nelreports.net
-  - DOMAIN-SUFFIX,indify.co
-  - DOMAIN-SUFFIX,cableav.tv
-  - DOMAIN-SUFFIX,ppa.launchpadcontent.net
-  - DOMAIN-SUFFIX,sleazyfork.org
-  - DOMAIN-SUFFIX,mb3admin.com
-  - DOMAIN-SUFFIX,dns.umbrella.com
-  - DOMAIN-SUFFIX,dns.opendns.com
-  - DOMAIN-SUFFIX,skinny.co
-  - DOMAIN-SUFFIX,fakenamegenerator.com
-  - DOMAIN-SUFFIX,backgroundchecks.org
+## > AI 相关
+
+  # A姐分享（AI 工具/软件分享博客）
   - DOMAIN-SUFFIX,ahhhhfs.com
-  - DOMAIN-SUFFIX,runoutfor.life
-  - DOMAIN-SUFFIX,skinny.co.nz
-  - DOMAIN-SUFFIX,canada.ca
-  - DOMAIN-SUFFIX,ghbtns.com
-  - DOMAIN-SUFFIX,bbs.north-plus.net
-  - DOMAIN-SUFFIX,split.io
-  - DOMAIN-SUFFIX,bullionvault.com
-  - DOMAIN-SUFFIX,bntrace.com
-  - DOMAIN-SUFFIX,sms-activation-service
-  - DOMAIN-SUFFIX,sms-activate.io
-  - DOMAIN-SUFFIX,sms-activate.ru
-  - DOMAIN-SUFFIX,sms-activate.org
-  - DOMAIN-SUFFIX,naiyovpn.com
-  - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-KEYWORD,chinadigitaltimes
-  - DOMAIN-SUFFIX,love.chenoodesu.online
-  - DOMAIN-SUFFIX,51cg1.com
-  - DOMAIN-SUFFIX,huan.baby
-  - DOMAIN-SUFFIX,xiaomingg.online
-  - DOMAIN-SUFFIX,baimeow.icu
+
+  # 免费 AI 模型 API 中转公益站
   - DOMAIN-SUFFIX,fanzisima.xyz
-  - DOMAIN-SUFFIX,momotale.com
+
+  # Civitai（AI 模型分享，关键词）
   - DOMAIN-KEYWORD,civitai
 
-##》 漏网之鱼 2026-10-11 漏网之鱼:Product Hunt,直连被Cloudflare 403拦截,走代理
+## > 接码平台
+
+  # 短信接码平台（关键词）
+  - DOMAIN-SUFFIX,sms-activation-service
+
+  # SMS-Activate
+  - DOMAIN-SUFFIX,sms-activate.io
+
+  # SMS-Activate 接码平台（俄罗斯）
+  - DOMAIN-SUFFIX,sms-activate.ru
+
+  # SMS-Activate
+  - DOMAIN-SUFFIX,sms-activate.org
+
+## > 论坛社区
+
+  # 私人 PT 种子站（飞天拉面神教）
+  - DOMAIN-SUFFIX,nextpt.net
+
+  # 南+ South Plus（ACG 同人资源论坛）
+  - DOMAIN-SUFFIX,bbs.north-plus.net
+
+  # 中国数字时代（关键词）
+  - DOMAIN-KEYWORD,chinadigitaltimes
+
+## > 开发工具
+
+  # SukkaW 个人站 API（代理规则集相关）
+  - DOMAIN-SUFFIX,api.skk.moe
+
+  # Shields.io 徽章服务
+  - DOMAIN-SUFFIX,img.shields.io
+
+  # GitHub 代理加速
+  - DOMAIN-SUFFIX,ghproxy.net
+
+  # Ubuntu Launchpad PPA 软件源 CDN
+  - DOMAIN-SUFFIX,ppa.launchpadcontent.net
+
+  # GitHub 按钮小部件站
+  - DOMAIN-SUFFIX,ghbtns.com
+
+  # 功能开关与 A/B 测试平台
+  - DOMAIN-SUFFIX,split.io
+
+## > 生活服务
+
+  # iMazing（iOS 设备管理）
+  - DOMAIN-SUFFIX,imazing.com
+
+  # 台湾工具邦在线小工具站
+  - DOMAIN-SUFFIX,tw.piliapp.com
+
+  # 英文假名/假身份生成器
+  - DOMAIN-SUFFIX,fakenamegenerator.com
+
+  # 美国背景调查导流站
+  - DOMAIN-SUFFIX,backgroundchecks.org
+
+  # Skinny（新西兰运营商）
+  - DOMAIN-SUFFIX,skinny.co.nz
+
+  # 加拿大政府官网
+  - DOMAIN-SUFFIX,canada.ca
+
+  # 贵金属在线交易平台
+  - DOMAIN-SUFFIX,bullionvault.com
+
+## > 代理与网络工具
+
+  # Nite07 的小窝（个人软件分享博客）
+  - DOMAIN-SUFFIX,nite07.com
+
+  # Roku（关键词）
+  - DOMAIN-KEYWORD,roku
+
+  # Freenom 免费域名（关键词）
+  - DOMAIN-KEYWORD,freenom
+
+  # V2Ray SSR 综合网（翻墙教程/一键脚本）
+  - DOMAIN-SUFFIX,v2rayssr.com
+
+  # Quantumult X（关键词）
+  - DOMAIN-KEYWORD,quantumult
+
+  # IMDb 数据集
+  - DOMAIN-SUFFIX,datasets.imdbws.com
+
+  # 猫熊网络加速器（关键词）
+  - DOMAIN-KEYWORD,mxwljsq
+
+  # Xtao-Labs（Telegram 机器人开发团队，关键词）
+  - DOMAIN-KEYWORD,xtaolabs
+
+  # 微软 Azure 美国政府云 CDN
+  - DOMAIN-SUFFIX,fp-afd.azureedge.us
+
+  # 疑似 App 推送/日志埋点服务
+  - DOMAIN-SUFFIX,bntrace.com
+
+## > 成人内容
+
+  # 禁漫天堂（关键词）
+  - DOMAIN-KEYWORD,18comic
+
+  # 成人视频维基数据库
+  - DOMAIN-SUFFIX,avwiki.org
+
+  # 日本 AV 高清中文字幕在线站
+  - DOMAIN-SUFFIX,avjoy.me
+
+  # 51 吃瓜网（八卦/成人内容站）
+  - DOMAIN-SUFFIX,51cg1.com
+
+## > 待确认
+
+  # 用途不明，待确认
+  - DOMAIN-KEYWORD,wzip
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,service.2ti.st
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,ierboryt.spphhnhg.top
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,raw.iqiq.io
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,dnsworker.com
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,runoutfor.life
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,love.chenoodesu.online
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,huan.baby
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,xiaomingg.online
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,baimeow.icu
+
+  # 用途不明，待确认
+  - DOMAIN-SUFFIX,momotale.com
+
+## > 漏网之鱼 2026-10-11
+
+  # Product Hunt（直连被 Cloudflare 403，走代理）
   - DOMAIN-SUFFIX,producthunt.com
 
-##》 漏网之鱼 2026-10-11 漏网之鱼:Homebrew官方
+  # Homebrew 官网
   - DOMAIN-SUFFIX,brew.sh
 
-##》 漏网之鱼 2026-10-11 漏网之鱼:强耦合/特殊走代理
+  # Steam 连通性测试
   - DOMAIN-SUFFIX,steamconnecttest.com
+
+  # Apple 私密中继
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+
+  # PerimeterX（HUMAN）机器人防护
   - DOMAIN-SUFFIX,px-cloud.net
+
+  # Radio Browser（网络电台目录）
   - DOMAIN-SUFFIX,radio-browser.info
