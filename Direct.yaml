@@ -170,3 +170,16 @@ payload:
 ##》 漏网之鱼 2026-10-11 漏网之鱼:群晖更新检查/图片SEO-API,直连
   - DOMAIN-SUFFIX,utyupdate.synology.com
   - DOMAIN-SUFFIX,tupianseo.com
+
+##》 漏网之鱼 2026-10-11 漏网之鱼:CDN前端无耦合走直连
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,istatmenus.app
+  - DOMAIN-SUFFIX,eff.org
+  - DOMAIN-SUFFIX,dciwx.com
+  - DOMAIN-SUFFIX,home-assistant.io
+  - DOMAIN-SUFFIX,theintrodb.org
+  - DOMAIN-SUFFIX,introdb.app
+  - DOMAIN-SUFFIX,iva-api.com
+  - DOMAIN-SUFFIX,bsbsb.top
+  - DOMAIN-SUFFIX,hacs.xyz
+  - DOMAIN-SUFFIX,ndmdhs.com
