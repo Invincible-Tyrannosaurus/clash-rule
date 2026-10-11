@@ -90,3 +90,9 @@ payload:
 
 ##》 漏网之鱼 2026-10-11 漏网之鱼:Homebrew官方
   - DOMAIN-SUFFIX,brew.sh
+
+##》 漏网之鱼 2026-10-11 漏网之鱼:强耦合/特殊走代理
+  - DOMAIN-SUFFIX,steamconnecttest.com
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,px-cloud.net
+  - DOMAIN-SUFFIX,radio-browser.info
