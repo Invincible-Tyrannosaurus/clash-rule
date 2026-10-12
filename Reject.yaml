@@ -117,3 +117,8 @@ payload:
 
   # NEL 网络错误报告
   - DOMAIN-SUFFIX,nelreports.net
+
+## > 漏网之鱼 2026-10-12
+
+  # Transcend cookie 同意弹窗脚本 CDN
+  - DOMAIN-SUFFIX,transcend-cdn.com

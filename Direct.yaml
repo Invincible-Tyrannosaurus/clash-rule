@@ -410,3 +410,39 @@ payload:
 
   # Eazo 静态资源 CDN（CloudFront）
   - DOMAIN-SUFFIX,assets.eazo.ai
+
+  # MLH 黑客松平台官网
+  - DOMAIN-SUFFIX,mlh.com
+
+  # MLH 黑客松平台
+  - DOMAIN-SUFFIX,mlh.io
+
+  # MLH 短链/活动页
+  - DOMAIN-SUFFIX,mlh.link
+
+  # WorkOS 登录认证 API
+  - DOMAIN-SUFFIX,api.workos.com
+
+  # WorkOS 认证转发
+  - DOMAIN-SUFFIX,forwarder.workos.com
+
+  # WorkOS 图片 CDN（imgix）
+  - DOMAIN-SUFFIX,workos.imgix.net
+
+  # Notion 图片 CDN
+  - DOMAIN-SUFFIX,notionusercontent.com
+
+  # Contentful 资源 CDN
+  - DOMAIN-SUFFIX,ctfassets.net
+
+  # PostImage 图床
+  - DOMAIN-SUFFIX,postimg.cc
+
+  # Certum 证书状态查询（OCSP）
+  - DOMAIN-SUFFIX,ocsp-certum.com
+
+  # 国内 GitHub 加速
+  - DOMAIN-SUFFIX,ghfast.top
+
+  # 国内 GitHub 加速
+  - DOMAIN-SUFFIX,git.yylx.win

@@ -14,8 +14,11 @@ payload:
   # DiscFan（动漫 PT）
   - DOMAIN-SUFFIX,discfan.xyz
 
-  # 用途不明，待确认
+  # 海胆 PT 相关域名（视频 CDN）
   - DOMAIN-SUFFIX,haidan.video
+
+  # 海胆 PT 站
+  - DOMAIN-SUFFIX,haidan.cc
 
   # HDVideo
   - DOMAIN-SUFFIX,hdvideo.one
