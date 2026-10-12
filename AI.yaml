@@ -30,3 +30,6 @@ payload:
 
   # Meta AI 相关域名（存疑）
   - DOMAIN-SUFFIX,metaaivm.com
+
+  # Eazo（AI vibe-coding 平台，一句话生成 App）
+  - DOMAIN-SUFFIX,eazo.ai

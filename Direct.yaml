@@ -405,3 +405,8 @@ payload:
 
   # 索尼相机相关服务
   - DOMAIN-SUFFIX,ndmdhs.com
+
+## > 漏网之鱼 2026-10-12
+
+  # Eazo 静态资源 CDN（CloudFront）
+  - DOMAIN-SUFFIX,assets.eazo.ai
