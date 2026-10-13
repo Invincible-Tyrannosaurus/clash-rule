@@ -446,3 +446,14 @@ payload:
 
   # 国内 GitHub 加速
   - DOMAIN-SUFFIX,git.yylx.win
+
+## > 漏网之鱼 2026-10-13
+
+  # TimeBlocks（韩国手帐 App）图片 CDN
+  - DOMAIN-SUFFIX,timeblocks.com
+
+  # 聚好链图片 CDN（香港）
+  - DOMAIN-SUFFIX,juhaolian.net
+
+  # 涂鸦智能欧洲云 API（物联网直连，不走代理）
+  - DOMAIN-SUFFIX,tuyaeu.com

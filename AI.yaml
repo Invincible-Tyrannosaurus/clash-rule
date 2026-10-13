@@ -33,3 +33,6 @@ payload:
 
   # Eazo（AI vibe-coding 平台，一句话生成 App）
   - DOMAIN-SUFFIX,eazo.ai
+
+  # Eazo AI 项目预览域名（Vercel）
+  - DOMAIN-SUFFIX,eazo.dev

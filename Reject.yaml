@@ -122,3 +122,65 @@ payload:
 
   # Transcend cookie 同意弹窗脚本 CDN
   - DOMAIN-SUFFIX,transcend-cdn.com
+
+## > 漏网之鱼 2026-10-13
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,6djwpucn.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,onting550.top
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,leapon117.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,qfpyyn.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,haohuxx.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,6apzfdx.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,rlocn.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,kyiqiwk.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,linanks.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,meiyajudec.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,7ammupm.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,3hknyak.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,quantong.fun
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,yishenwenhua.xyz
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,ewpqd.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,szpro360.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,bzgpzil.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,82579283.com
+
+  # 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+  - DOMAIN-SUFFIX,lyjj.com
+
+  # PostHog 产品分析/埋点上报
+  - DOMAIN-SUFFIX,posthog.com
