@@ -457,3 +457,20 @@ payload:
 
   # 涂鸦智能欧洲云 API（物联网直连，不走代理）
   - DOMAIN-SUFFIX,tuyaeu.com
+
+## > 漏网之鱼 2026-10-14
+
+  # Fully Kiosk Browser 官网（德国，安卓 kiosk 浏览器）
+  - DOMAIN-SUFFIX,fully-kiosk.com
+
+  # Polite Society 印度女装 Shopify 独立站
+  - DOMAIN-SUFFIX,politesocietyshop.com
+
+  # 印度 Shiprocket 电商物流平台
+  - DOMAIN-SUFFIX,shiprocket.in
+
+  # 香港 SIM World 电话储值卡官网
+  - DOMAIN-SUFFIX,simworld.net
+
+  # Public Free Suffix 免费公益子域名服务官网
+  - DOMAIN-SUFFIX,is-a.si
