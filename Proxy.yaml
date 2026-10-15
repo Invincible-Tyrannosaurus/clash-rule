@@ -225,3 +225,8 @@ payload:
 
   # Radio Browser（网络电台目录）
   - DOMAIN-SUFFIX,radio-browser.info
+
+## > 漏网之鱼 2026-10-15
+
+  # Eigent 开源 AI 多智能体桌面应用（AWS 美西）
+  - DOMAIN-SUFFIX,eigent.ai
