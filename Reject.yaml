@@ -184,3 +184,8 @@ payload:
 
   # PostHog 产品分析/埋点上报
   - DOMAIN-SUFFIX,posthog.com
+
+## > 漏网之鱼 2026-10-16
+
+  # WonderfulDay27 域名停放页广告追踪（Above.com/Trellian，f/t+编号子域名）
+  - DOMAIN-SUFFIX,wonderfulday27.live
