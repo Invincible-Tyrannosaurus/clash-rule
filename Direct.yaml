@@ -474,3 +474,11 @@ payload:
 
   # Public Free Suffix 免费公益子域名服务官网
   - DOMAIN-SUFFIX,is-a.si
+
+## > 漏网之鱼 2026-10-17
+
+  # go2rtc 摄像头串流软件官网（GitHub Pages + Fastly）
+  - DOMAIN-SUFFIX,go2rtc.org
+
+  # Ditto 香港边缘 CDN 静态资源
+  - DOMAIN-SUFFIX,dittocdn.com

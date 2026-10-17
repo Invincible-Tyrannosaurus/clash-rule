@@ -230,3 +230,8 @@ payload:
 
   # Eigent 开源 AI 多智能体桌面应用（AWS 美西）
   - DOMAIN-SUFFIX,eigent.ai
+
+## > 漏网之鱼 2026-10-17
+
+  # Mozilla 公用后缀列表（Public Suffix List）官网
+  - DOMAIN-SUFFIX,publicsuffix.org
