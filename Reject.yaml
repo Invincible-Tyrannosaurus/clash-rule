@@ -189,3 +189,8 @@ payload:
 
   # WonderfulDay27 域名停放页广告追踪（Above.com/Trellian，f/t+编号子域名）
   - DOMAIN-SUFFIX,wonderfulday27.live
+
+## > 漏网之鱼 2026-10-17
+
+  # 身份不明的随机命名域名（与 aidajijteb.com 共享证书的域名簇，圣何塞 PEG TECH 灰色机房，疑似广告跳转/欺诈基础设施）
+  - DOMAIN-SUFFIX,aidajivyev.com

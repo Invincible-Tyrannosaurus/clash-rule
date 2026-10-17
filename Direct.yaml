@@ -482,3 +482,6 @@ payload:
 
   # Ditto 香港边缘 CDN 静态资源
   - DOMAIN-SUFFIX,dittocdn.com
+
+  # 华硕官网（AWS CloudFront 香港边缘，无强耦合的 CDN 前端走直连）
+  - DOMAIN-SUFFIX,asus.com
