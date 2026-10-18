@@ -485,3 +485,8 @@ payload:
 
   # 华硕官网（AWS CloudFront 香港边缘，无强耦合的 CDN 前端走直连）
   - DOMAIN-SUFFIX,asus.com
+
+## > 漏网之鱼 2026-10-18
+
+  # 涂鸦智能 IoT 设备云连接端点（凯度蒸烤箱等 Tuya 设备心跳，覆盖 h2/h3/h3-eu 变体）
+  - DOMAIN-SUFFIX,iot-dns.com
