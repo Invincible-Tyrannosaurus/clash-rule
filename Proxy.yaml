@@ -31,8 +31,6 @@ payload:
   - DOMAIN-SUFFIX,ahhhhfs.com
   # 免费 AI 模型 API 中转公益站
   - DOMAIN-SUFFIX,fanzisima.xyz
-  # Civitai（AI 模型分享，关键词）
-  - DOMAIN-KEYWORD,civitai
   # Eigent 开源 AI 多智能体桌面应用（AWS 美西）
   - DOMAIN-SUFFIX,eigent.ai
   # DeepL 翻译
