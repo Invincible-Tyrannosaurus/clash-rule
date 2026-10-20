@@ -10,8 +10,9 @@ DOMAIN-SUFFIX,muse.ai
 # Hark（AI 工具）
 DOMAIN-SUFFIX,hark.com
 
-# Hark 服务 IP
+# Hark 服务 IP（Cloudflare 拦截中国大陆 IP，直连返回 403，必须走代理；2026-10-20 实测）
 IP-CIDR,104.18.20.37/32
+IP-CIDR,104.18.21.37/32
 
 # Meta AI
 DOMAIN-SUFFIX,meta.ai
