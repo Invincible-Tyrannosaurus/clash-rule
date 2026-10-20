@@ -418,3 +418,45 @@ payload:
   # 美的美居 / COLMO（部分接口解析到境外加速 IP）
   - DOMAIN-SUFFIX,midea.com
   - DOMAIN-SUFFIX,smartmidea.net
+
+## > 漏网之鱼 2026-10-20（家里 DNS 缓存比对）
+
+  # 群晖 QuickConnect / Cloud Sync 全部子域
+  - DOMAIN-SUFFIX,quickconnect.to
+
+  # Transmission 端口检测
+  - DOMAIN-SUFFIX,transmissionbt.com
+
+  # NTP 授时池
+  - DOMAIN-SUFFIX,ntpns.org
+
+  # 阿里系安全/风控（ynuf）
+  - DOMAIN-SUFFIX,aliapp.org
+
+  # 阿里妈妈 tanx
+  - DOMAIN-SUFFIX,tanx.com
+
+  # 智能家居 IoT（ixingoo）
+  - DOMAIN-SUFFIX,ixingoo.com
+
+  # 国内 CDN 调度 uhabo
+  - DOMAIN-SUFFIX,uhabo.com
+
+  # 网易云解锁音源 API
+  - DOMAIN-SUFFIX,gdstudio.xyz
+
+  # 国内影视/游戏站（境外 CDN，直连可用）
+  - DOMAIN-SUFFIX,4k1080.com
+  - DOMAIN-SUFFIX,heimuer.tv
+  - DOMAIN-SUFFIX,9dmsgame.com
+  - DOMAIN-SUFFIX,zhaiiker.com
+  - DOMAIN-SUFFIX,kejiwanjia.top
+  - DOMAIN-SUFFIX,tudouseo.com
+
+  # TCL 电视 AI 配置
+  - DOMAIN-SUFFIX,tclai.top
+
+  # CF 优选测速域名
+  - DOMAIN-SUFFIX,090227.xyz
+  - DOMAIN-SUFFIX,078465.xyz
+  - DOMAIN-SUFFIX,301308.xyz
