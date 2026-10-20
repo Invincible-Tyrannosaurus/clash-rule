@@ -1,0 +1,38 @@
+# 由 AI.yaml 自动同步（家里 OpenClash 用 .yaml，手机 Loon 用 .list，两份内容一致）。改规则请改 .yaml 后再同步。2026-10-20
+
+# > AI 工具通用规则
+# 没有专属分组的 AI 工具走这里
+# 原 MetaAI.yaml 改名扩展，2026-10-07
+
+# Muse（AI 智能体）
+DOMAIN-SUFFIX,muse.ai
+
+# Hark（AI 工具）
+DOMAIN-SUFFIX,hark.com
+
+# Hark 服务 IP
+IP-CIDR,104.18.20.37/32
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
+
+# Meta 账号认证
+DOMAIN-SUFFIX,auth.meta.com
+
+# Meta 官网
+DOMAIN-SUFFIX,meta.com
+
+# Facebook
+DOMAIN-SUFFIX,facebook.com
+
+# Facebook CDN
+DOMAIN-SUFFIX,fbcdn.net
+
+# Meta AI 相关域名（存疑）
+DOMAIN-SUFFIX,metaaivm.com
+
+# Eazo（AI vibe-coding 平台，一句话生成 App）
+DOMAIN-SUFFIX,eazo.ai
+
+# Eazo AI 项目预览域名（Vercel）
+DOMAIN-SUFFIX,eazo.dev
