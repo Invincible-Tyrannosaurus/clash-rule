@@ -17,33 +17,12 @@ payload:
   # IP 检测；订阅走代理，此处保留直连（IP 检测要直连才准）
   - DOMAIN-SUFFIX,checkip.dyndns.org
 
-  # 群晖 IP 检测
-  - DOMAIN-SUFFIX,checkip.synology.com
-
-  # 群晖 IPv6 检测
-  - DOMAIN-SUFFIX,checkipv6.synology.com
-
-  # 群晖端口检测
-  - DOMAIN-SUFFIX,checkport.synology.com
-
-  # 群晖 DDNS
-  - DOMAIN-SUFFIX,ddns.synology.com
-
-  # 群晖账号
-  - DOMAIN-SUFFIX,account.synology.com
-
   # 群晖 QuickConnect 鉴权
   - DOMAIN-SUFFIX,apiauth.quickconnect.to
 
 ## > 群晖 Cloud Sync
 
-  # （台湾节点）
-  - DOMAIN-SUFFIX,cloudsync-tw.synology.com
-
 ## > 群晖订阅统计
-
-  # 群晖 Insight 订阅统计
-  - DOMAIN-SUFFIX,subscribe.insight.synology.com
 
 ## > Tailscale
 
@@ -52,9 +31,6 @@ payload:
   - DOMAIN-SUFFIX,tailscale.io
 
 ## > macOS 工具
-
-  # iStat Menus 天气
-  - DOMAIN-SUFFIX,weather.istatmenus.app
 
   # Bartender（macOS 菜单栏工具）
   - DOMAIN-SUFFIX,macbartender.com
@@ -73,29 +49,17 @@ payload:
   # 成人内容域名（关键词）
   - DOMAIN-KEYWORD,sifang115
 
-  # PikPak 网盘第三方桌面客户端（关键词）
-  - DOMAIN-KEYWORD,mypikpak
-
   # PikPak 网盘（关键词）
   - DOMAIN-KEYWORD,pikpak
 
   # 高清 MP4 吧镜像站（盗版电影）
   - DOMAIN-SUFFIX,mp4ba.vip
 
-  # BTSOW 磁力搜索
-  - DOMAIN-SUFFIX,btsow.quest
-
-  # KickassTorrents（磁力站）
-  - DOMAIN-SUFFIX,katcr.to
-
   # 高清片源网（盗版电影下载）
   - DOMAIN-SUFFIX,hdpianyuan.com
 
   # MioBT（中文动漫 BT 资源站）
   - DOMAIN-SUFFIX,miobt.com
-
-  # 蓝光电影网（4K/1080p 电影下载站）
-  - DOMAIN-SUFFIX,4k1080.com
 
   # blu-ray.com 图片 CDN（影碟封面图库）
   - DOMAIN-SUFFIX,images3.static-bluray.com
@@ -105,9 +69,6 @@ payload:
 
   # 日剧综艺 PT 资源站（日本电视节目）
   - DOMAIN-SUFFIX,jptvts.us
-
-  # 黑木耳资源站（小众免费影视聚合）
-  - DOMAIN-SUFFIX,heimuer.tv
 
   # 360 影视资源站（采集源）
   - DOMAIN-SUFFIX,360zy.com
@@ -128,9 +89,6 @@ payload:
 
   # 免费图床（OurPics）
   - DOMAIN-SUFFIX,picgd.com
-
-  # 免费图床（愛上傳，免登录）
-  - DOMAIN-SUFFIX,img.chkaja.com
 
   # Gravatar 头像国内镜像
   - DOMAIN-SUFFIX,gravatar.kuibu.net
@@ -167,9 +125,6 @@ payload:
   # 数字激活码/点卡商店
   - DOMAIN-SUFFIX,mtcgame.com
 
-  # 9dm 玖大猫游戏 MOD 论坛（单机）
-  - DOMAIN-SUFFIX,9dmsgame.com
-
   # PGAME 单机游戏下载站
   - DOMAIN-SUFFIX,pgame.vip
 
@@ -186,9 +141,6 @@ payload:
 
   # 老大技术博客图床
   - DOMAIN-SUFFIX,img.laoda.de
-
-  # 科技玩家自媒体（软件分享/教程导航）
-  - DOMAIN-SUFFIX,kejiwanjia.net
 
   # 技术运维个人博客（喵斯基部落）
   - DOMAIN-SUFFIX,moewah.com
@@ -213,14 +165,8 @@ payload:
   # Heimdall 导航页应用列表 API
   - DOMAIN-SUFFIX,appslist.heimdall.site
 
-  # 公开 BitTorrent Tracker 服务器
-  - DOMAIN-SUFFIX,tr.abiir.top
-
   # RevenueCat 应用内订阅服务
   - DOMAIN-SUFFIX,api.revenuecat.com
-
-  # 日出日落时间 API
-  - DOMAIN-SUFFIX,api.sunrise-sunset.org
 
   # 日出日落时间查询
   - DOMAIN-SUFFIX,sunrise-sunset.org
@@ -245,12 +191,6 @@ payload:
 
   # TiviMate 播放器联网验证
   - DOMAIN-SUFFIX,tivimate.b4a.io
-
-  # 索尼相机元数据 API
-  - DOMAIN-SUFFIX,api.meta.ndmdhs.com
-
-  # 索尼相机元数据 CDN
-  - DOMAIN-SUFFIX,cdn.meta.ndmdhs.com
 
   # Star History（GitHub Star 趋势）
   - DOMAIN-SUFFIX,api.star-history.com
@@ -303,9 +243,6 @@ payload:
   - DOMAIN-SUFFIX,shizuku.ml
 
   # 用途不明，待确认
-  - DOMAIN-SUFFIX,z4a.net
-
-  # 用途不明，待确认
   - DOMAIN-SUFFIX,gordon2000.com
 
   # 停靠域名（随机字符串，身份不明）
@@ -319,9 +256,6 @@ payload:
 
   # 用途不明，待确认
   - DOMAIN-SUFFIX,api.stentvessel.club
-
-  # 疑似钓鱼风险站点（信任评分极低）
-  - DOMAIN-SUFFIX,evodevicemanager.com
 
   # 用途不明，待确认
   - DOMAIN-SUFFIX,1plus.io
@@ -366,9 +300,6 @@ payload:
 
   # Buyandship 转运官网
   - DOMAIN-SUFFIX,buyandship.today
-
-  # 群晖更新检查
-  - DOMAIN-SUFFIX,utyupdate.synology.com
 
   # 图片 SEO 服务站
   - DOMAIN-SUFFIX,tupianseo.com
