@@ -249,6 +249,8 @@ DOMAIN-SUFFIX,timeblocks.com
 DOMAIN-SUFFIX,juhaolian.net
 # Public Free Suffix 免费公益子域名服务官网
 DOMAIN-SUFFIX,is-a.si
+# Wabi（AI 助手桌面版更新包，直连可用、体积大；聊天走 AI 规则，2026-10-21）
+DOMAIN,desktop-updates.wabi.ai
 
 # > 购物
 
