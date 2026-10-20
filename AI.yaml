@@ -424,3 +424,8 @@ payload:
   - DOMAIN-SUFFIX,youmind.site
   # Civitai（AI 模型分享；black7 Civitai 只含 civitai.com，关键词补全其他域名，2026-10-21 从 Proxy 移来）
   - DOMAIN-KEYWORD,civitai
+  # Wabi（Replika 创始人的 AI 助手，2026-10-19 上线）
+  - DOMAIN-SUFFIX,wabi.ai
+  - DOMAIN-SUFFIX,getwabi.ai
+  # MyClaw（OpenClaw 托管平台）
+  - DOMAIN-SUFFIX,myclaw.ai
