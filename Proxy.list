@@ -255,3 +255,33 @@ DOMAIN-SUFFIX,workos.imgix.net
 
 # 香港 SIM World 电话储值卡官网
 DOMAIN-SUFFIX,simworld.net
+
+# > 漏网之鱼 2026-10-20（家里 DNS 缓存比对）
+
+# DeepL 翻译
+DOMAIN-SUFFIX,deepl.com
+
+# ACL 论文库
+DOMAIN-SUFFIX,aclanthology.org
+
+# Sanity CMS 图片 CDN
+DOMAIN-SUFFIX,sanity.io
+
+# Manus 托管站点与 CDN
+DOMAIN-SUFFIX,manus.space
+DOMAIN-SUFFIX,manuscdn.com
+
+# HIBP 密码泄露查询
+DOMAIN-SUFFIX,pwnedpasswords.com
+
+# Tampermonkey
+DOMAIN-SUFFIX,tampermonkey.net
+
+# DigitalOcean 对象存储（Portainer 资源等）
+DOMAIN-SUFFIX,digitaloceanspaces.com
+
+# NVIDIA 驱动/OTA
+DOMAIN-SUFFIX,nvidia.com
+
+# Emby Connect
+DOMAIN-SUFFIX,emby.media
