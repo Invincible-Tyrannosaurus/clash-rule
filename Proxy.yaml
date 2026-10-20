@@ -28,9 +28,6 @@ payload:
 
 ## > 我愛78論壇（5278.cc）
 
-  # Polyfill JS 库 CDN
-  - DOMAIN-SUFFIX,polyfill.io
-
   # 跳转域
   - DOMAIN-SUFFIX,hboav.com
 
@@ -60,7 +57,7 @@ payload:
 ## > 接码平台
 
   # 短信接码平台（关键词）
-  - DOMAIN-SUFFIX,sms-activation-service
+  - DOMAIN-KEYWORD,sms-activation
 
   # SMS-Activate
   - DOMAIN-SUFFIX,sms-activate.io
@@ -235,3 +232,17 @@ payload:
 
   # Mozilla 公用后缀列表（Public Suffix List）官网
   - DOMAIN-SUFFIX,publicsuffix.org
+
+## > 2026-10-20 实测：直连不通、代理可通（自 Direct 移入）
+
+  # 免费图床（愛上傳，免登录）
+  - DOMAIN-SUFFIX,img.chkaja.com
+
+  # 科技玩家自媒体（软件分享/教程导航）
+  - DOMAIN-SUFFIX,kejiwanjia.net
+
+  # KickassTorrents（磁力站）
+  - DOMAIN-SUFFIX,katcr.to
+
+  # BTSOW 磁力搜索
+  - DOMAIN-SUFFIX,btsow.quest
