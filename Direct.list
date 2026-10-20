@@ -409,3 +409,12 @@ DOMAIN-SUFFIX,asus.com
 
 # 涂鸦智能 IoT 设备云连接端点（凯度蒸烤箱等 Tuya 设备心跳，覆盖 h2/h3/h3-eu 变体）
 DOMAIN-SUFFIX,iot-dns.com
+
+# > 国内 App 被国外规则误收 2026-10-20
+
+# 抖音/今日头条接口（blackmatrix7 TikTok 规则里也有 snssdk.com，这里先命中直连）
+DOMAIN-SUFFIX,snssdk.com
+
+# 美的美居 / COLMO（部分接口解析到境外加速 IP）
+DOMAIN-SUFFIX,midea.com
+DOMAIN-SUFFIX,smartmidea.net
