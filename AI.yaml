@@ -32,6 +32,9 @@ payload:
   # Meta AI 相关域名（存疑）
   - DOMAIN-SUFFIX,metaaivm.com
 
+  # Multimango（Meta AI 数据标注平台，原 Loon Muse 组规则并入）
+  - DOMAIN-SUFFIX,multimango.com
+
   # Eazo（AI vibe-coding 平台，一句话生成 App）
   - DOMAIN-SUFFIX,eazo.ai
 
