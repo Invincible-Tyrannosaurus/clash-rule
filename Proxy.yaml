@@ -35,10 +35,6 @@ payload:
   - DOMAIN-KEYWORD,civitai
   # Eigent 开源 AI 多智能体桌面应用（AWS 美西）
   - DOMAIN-SUFFIX,eigent.ai
-  # Manus 托管站点与 CDN
-  - DOMAIN-SUFFIX,manus.space
-  # Manus 托管站点与 CDN
-  - DOMAIN-SUFFIX,manuscdn.com
   # DeepL 翻译
   - DOMAIN-SUFFIX,deepl.com
 
