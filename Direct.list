@@ -1,156 +1,411 @@
-## > 东航
+# 由 Direct.yaml 自动同步（家里 OpenClash 用 .yaml，手机 Loon 用 .list，两份内容一致）。改规则请改 .yaml 后再同步。2026-10-20
+
+# > 中国东方航空
+
 DOMAIN-KEYWORD,ceair
 
-## > DDNS
-DOMAIN-SUFFIX,91fb.top
+# > 自有域名（DDNS）
 
-## > PLEX
+DOMAIN-SUFFIX,7788996.xyz
+
+# > Plex 媒体服务器
+
 DOMAIN-SUFFIX,plex.tv
 
-## > 群辉远程登录
+# > 群晖远程登录
+
+# IP 检测；订阅走代理，此处保留直连（IP 检测要直连才准）
 DOMAIN-SUFFIX,checkip.dyndns.org
-DOMAIN-SUFFIX,checkip.synology.com
-DOMAIN-SUFFIX,checkipv6.synology.com
-DOMAIN-SUFFIX,checkport.synology.com
-DOMAIN-SUFFIX,ddns.synology.com
-DOMAIN-SUFFIX,account.synology.com
 
-## > 群辉cloudsync同步
-DOMAIN-SUFFIX,cloudsync-tw.synology.com
+# 群晖 QuickConnect 鉴权
+DOMAIN-SUFFIX,apiauth.quickconnect.to
 
-##> 低端影视
+# > 群晖 Cloud Sync
+
+# > 群晖订阅统计
+
+# > Tailscale
+
+DOMAIN-SUFFIX,tailscale.com
+
+DOMAIN-SUFFIX,tailscale.io
+
+# > macOS 工具
+
+# Bartender（macOS 菜单栏工具）
+DOMAIN-SUFFIX,macbartender.com
+
+# Bartender 作者官网
+DOMAIN-SUFFIX,caldis.me
+
+# Surge（网络调试工具）
+DOMAIN-SUFFIX,nssurge.com
+
+# > 影视资源
+
+# 低端影视
 DOMAIN-KEYWORD,ddys
 
-##> Transmission 端口检测
-DOMAIN-SUFFIX,portcheck.transmissionbt.com
-
-##> IP检测
-DOMAIN-SUFFIX,api.ipify.org
-
-##》 EMBY
-DOMAIN-SUFFIX,connect.emby.media
-DOMAIN-SUFFIX,embydata.com
-DOMAIN-SUFFIX,emby.tv
-
-##》 隔壁网
-DOMAIN-SUFFIX,gebi1.com
-
-##》 openos
-DOMAIN-SUFFIX,openos.org
-
-##》 雷蛇
-DOMAIN-SUFFIX,razersynapse.com
-
-##》 黑果小兵
-DOMAIN-SUFFIX,daliansky.net
-
-##》 不蒜子
-DOMAIN-SUFFIX,busuanzi.ibruce.info
-
-# V1订阅
-DOMAIN-SUFFIX,v1.mk
-
-DOMAIN-SUFFIX,shizuku.ml
-DOMAIN-KEYWORD,kingran
-DOMAIN-SUFFIX,geili.me
-DOMAIN-SUFFIX,momoe.ml
-DOMAIN-SUFFIX,nolanstore.top
-DOMAIN-SUFFIX,ptpimg.me
-DOMAIN-SUFFIX,niupic.com
-DOMAIN-SUFFIX,ccache.org
-DOMAIN-SUFFIX,z4a.net
-DOMAIN-SUFFIX,uuu.ovh
-DOMAIN-SUFFIX,imgurl.org
-DOMAIN-SUFFIX,gordon2000.com
-DOMAIN-SUFFIX,appslist.heimdall.site
-DOMAIN-SUFFIX,api.youxiaohou.com
-DOMAIN-SUFFIX,tr.abiir.top
-DOMAIN-SUFFIX,23img.com
-DOMAIN-SUFFIX,ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz
-DOMAIN-SUFFIX,fakerengine.com
+# 成人内容域名（关键词）
 DOMAIN-KEYWORD,sifang115
-DOMAIN-KEYWORD,mypikpak
+
+# PikPak 网盘（关键词）
 DOMAIN-KEYWORD,pikpak
-DOMAIN-KEYWORD,groueta
-DOMAIN-SUFFIX,ggdassets.gaggle.fun
-DOMAIN-SUFFIX,limbopro.com
-DOMAIN-SUFFIX,api.revenuecat.com
-DOMAIN-SUFFIX,api.iliya.cf
-DOMAIN-SUFFIX,api.sunrise-sunset.org
-DOMAIN-SUFFIX,sunrise-sunset.org
-DOMAIN-SUFFIX,g-api.kwai.com
-DOMAIN-SUFFIX,www.evodevicemanager.com
-DOMAIN-SUFFIX,locationiq.com
-DOMAIN-SUFFIX,lencr.org
-DOMAIN-SUFFIX,uupdump.net
-DOMAIN-SUFFIX,uupdump.cn
-DOMAIN-SUFFIX,parsec.app
-DOMAIN-SUFFIX,1plus.io
-DOMAIN-SUFFIX,aptvapp.com
-DOMAIN-SUFFIX,heytapmobile.com
-DOMAIN-SUFFIX,tivimate.b4a.io
 
-DOMAIN-SUFFIX,img.ptdream.net
-DOMAIN-SUFFIX,mikanani.me
+# 高清 MP4 吧镜像站（盗版电影）
 DOMAIN-SUFFIX,mp4ba.vip
-DOMAIN-SUFFIX,btsow.quest
-DOMAIN-SUFFIX,katcr.to
-DOMAIN-SUFFIX,hdpianyuan.com
-DOMAIN-SUFFIX,miobt.com
-DOMAIN-SUFFIX,api.bgm.tv
-DOMAIN-SUFFIX,api.meta.ndmdhs.com
-DOMAIN-SUFFIX,cdn.meta.ndmdhs.com
-DOMAIN-SUFFIX,api.star-history.com
-DOMAIN-SUFFIX,1000qm.vip
-DOMAIN-SUFFIX,picgd.com
-DOMAIN-SUFFIX,img.picgo.net
-DOMAIN-SUFFIX,img.chkaja.com
-DOMAIN-SUFFIX,gravatar.kuibu.net
-DOMAIN-SUFFIX,iili.io
-DOMAIN-SUFFIX,ooo.0o0.ooo
-DOMAIN-SUFFIX,4k1080.com
-DOMAIN-SUFFIX,freeimage.host
-DOMAIN-SUFFIX,imgbox.com
-DOMAIN-SUFFIX,s1.ax1x.com
-DOMAIN-SUFFIX,imgloc.com
-DOMAIN-SUFFIX,imgtp.com
-DOMAIN-SUFFIX,j000e.com
-DOMAIN-SUFFIX,images3.static-bluray.com
-DOMAIN-SUFFIX,oyunfor.com
-DOMAIN-SUFFIX,cp.v2-tun.com
-DOMAIN-SUFFIX,cp.v2tun.us
-DOMAIN-SUFFIX,mtcgame.com
-DOMAIN-SUFFIX,app.trydome.io
-DOMAIN-SUFFIX,pcnow.cc
-DOMAIN-SUFFIX,voce.chat
-DOMAIN-SUFFIX,cdn.plyr.io
-DOMAIN-SUFFIX,static.bridger.chat
-DOMAIN-SUFFIX,noembed.com
-DOMAIN-SUFFIX,getmythemes.com
-DOMAIN-SUFFIX,blog.laoda.de
-DOMAIN-SUFFIX,opex-service-sg.allawnos.com
-DOMAIN-SUFFIX,api.v2tun-163cdn.top
-DOMAIN-SUFFIX,9dmsgame.com
-DOMAIN-SUFFIX,pgame.vip
-DOMAIN-SUFFIX,apiauth.quickconnect.to
-DOMAIN-SUFFIX,opensubtitles.org
-DOMAIN-SUFFIX,img.laoda.de
-DOMAIN-SUFFIX,lawbook.cf
-DOMAIN-SUFFIX,weatheroffer.com
-DOMAIN-SUFFIX,kejiwanjia.net
-DOMAIN-SUFFIX,jinky.top
-DOMAIN-SUFFIX,jptvts.us
-DOMAIN-SUFFIX,sub.nysubs.xyz
-DOMAIN-SUFFIX,moewah.com
 
-DOMAIN-SUFFIX,heimuer.tv
-DOMAIN-SUFFIX,huawei8.live
+# 高清片源网（盗版电影下载）
+DOMAIN-SUFFIX,hdpianyuan.com
+
+# MioBT（中文动漫 BT 资源站）
+DOMAIN-SUFFIX,miobt.com
+
+# blu-ray.com 图片 CDN（影碟封面图库）
+DOMAIN-SUFFIX,images3.static-bluray.com
+
+# OpenSubtitles 字幕
+DOMAIN-SUFFIX,opensubtitles.org
+
+# 日剧综艺 PT 资源站（日本电视节目）
+DOMAIN-SUFFIX,jptvts.us
+
+# 360 影视资源站（采集源）
 DOMAIN-SUFFIX,360zy.com
-DOMAIN-SUFFIX,xiaohuangrentv.com
+
+# 飞飞影视资源站图片（采集源）
 DOMAIN-SUFFIX,3img.ffzy888.com
+
+# 盗版影视站视频流服务器
 DOMAIN-SUFFIX,hmrvideo.com
 
-DOMAIN-SUFFIX,weather.istatmenus.app
+# > 图床
+
+# PT 图片托管
+DOMAIN-SUFFIX,ptpimg.me
+
+# PTDream 私人 PT 站图床
+DOMAIN-SUFFIX,img.ptdream.net
+
+# 免费图床（OurPics）
+DOMAIN-SUFFIX,picgd.com
+
+# Gravatar 头像国内镜像
+DOMAIN-SUFFIX,gravatar.kuibu.net
+
+# 免费图片托管（freeimage.host）
+DOMAIN-SUFFIX,iili.io
+
+# 免费图片托管
+DOMAIN-SUFFIX,ooo.0o0.ooo
+
+# 免费图床
+DOMAIN-SUFFIX,freeimage.host
+
+# 免费图床
+DOMAIN-SUFFIX,imgbox.com
+
+# 免费公共图床（ImgLoc）
+DOMAIN-SUFFIX,imgloc.com
+
+# 免费公共图床（ImgTP，支持 PicGo）
+DOMAIN-SUFFIX,imgtp.com
+
+# > 游戏
+
+# 私服（乱 Online 私服，关键词）
+DOMAIN-KEYWORD,kingran
+
+# Gaggle 在线游戏平台静态资源
+DOMAIN-SUFFIX,ggdassets.gaggle.fun
+
+# 土耳其游戏点卡/数字代码电商
+DOMAIN-SUFFIX,oyunfor.com
+
+# 数字激活码/点卡商店
+DOMAIN-SUFFIX,mtcgame.com
+
+# PGAME 单机游戏下载站
+DOMAIN-SUFFIX,pgame.vip
+
+# > 博客资讯
+
+# 毒奶博客（科学上网/资源分享）
+DOMAIN-SUFFIX,limbopro.com
+
+# 中文科技资讯博客（PCNow）
+DOMAIN-SUFFIX,pcnow.cc
+
+# 老大技术博客（VPS/服务器折腾）
+DOMAIN-SUFFIX,blog.laoda.de
+
+# 老大技术博客图床
+DOMAIN-SUFFIX,img.laoda.de
+
+# 技术运维个人博客（喵斯基部落）
+DOMAIN-SUFFIX,moewah.com
+
+# > 网络工具与服务
+
+# 肥羊短链接（国内短链接/直播源服务）
+DOMAIN-SUFFIX,v1.mk
+
+# AdGuard 公共 DoH 服务（adg.geili.me）
+DOMAIN-SUFFIX,geili.me
+
+# 宁宁的个人博客/在线工具小站
+DOMAIN-SUFFIX,momoe.ml
+
+# 京东"关注有礼"脚本 API
+DOMAIN-SUFFIX,nolanstore.top
+
+# ccache 编译器缓存（站点身份不完全确定）
+DOMAIN-SUFFIX,ccache.org
+
+# Heimdall 导航页应用列表 API
+DOMAIN-SUFFIX,appslist.heimdall.site
+
+# RevenueCat 应用内订阅服务
+DOMAIN-SUFFIX,api.revenuecat.com
+
+# 日出日落时间查询
+DOMAIN-SUFFIX,sunrise-sunset.org
+
+# LocationIQ 地理编码 API
+DOMAIN-SUFFIX,locationiq.com
+
+# Let's Encrypt OCSP（证书状态）
+DOMAIN-SUFFIX,lencr.org
+
+# UUP Dump（Windows 更新下载）
+DOMAIN-KEYWORD,uupdump
+
+# Parsec 远程桌面
+DOMAIN-SUFFIX,parsec.app
+
+# APTV（跨平台 IPTV 播放器）官网
+DOMAIN-SUFFIX,aptvapp.com
+
+# OPPO HeyTap 移动服务
+DOMAIN-SUFFIX,heytapmobile.com
+
+# TiviMate 播放器联网验证
+DOMAIN-SUFFIX,tivimate.b4a.io
+
+# Star History（GitHub Star 趋势）
+DOMAIN-SUFFIX,api.star-history.com
+
+# Dome 全栈云 PaaS 应用控制台
+DOMAIN-SUFFIX,app.trydome.io
+
+# VoceChat 轻量自部署聊天服务器
+DOMAIN-SUFFIX,voce.chat
+
+# Plyr 播放器 CDN
+DOMAIN-SUFFIX,cdn.plyr.io
+
+# 在线客服插件（聊天桥接 Discord）
+DOMAIN-SUFFIX,static.bridger.chat
+
+# Noembed（视频嵌入解析 API）
+DOMAIN-SUFFIX,noembed.com
+
+# WordPress 主题插件转售站（GPL）
+DOMAIN-SUFFIX,getmythemes.com
+
+# OPPO 手机系统服务（新加坡 AWS）
+DOMAIN-SUFFIX,opex-service-sg.allawnos.com
+
+# V2Ray 代理工具/翻墙服务（关键词）
+DOMAIN-KEYWORD,v2-tun
+
+# 代理工具/翻墙机场（关键词）
+DOMAIN-KEYWORD,linkcube
+
+# > 连通性检测
+
+# Transmission 端口检测
+DOMAIN-SUFFIX,portcheck.transmissionbt.com
+
+# IP 检测；订阅走代理，此处保留直连（IP 检测要直连才准）
+DOMAIN-SUFFIX,api.ipify.org
+
+# IP 地理位置查询
+DOMAIN-SUFFIX,api.ipapi.is
+
+# > 隔壁网（NAS/PT 交流论坛）
+
+DOMAIN-SUFFIX,gebi1.com
+
+# > 待确认
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,shizuku.ml
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,gordon2000.com
+
+# 停靠域名（随机字符串，身份不明）
+DOMAIN-SUFFIX,ugfy-yted6i57-696ie-5iytf.vsdjhgfwgrwbetgw.xyz
+
+# FakerEngine 假数据生成工具（身份存疑）
+DOMAIN-SUFFIX,fakerengine.com
+
+# 用途不明，待确认
+DOMAIN-KEYWORD,groueta
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,api.stentvessel.club
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,1plus.io
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,j000e.com
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,api.v2tun-163cdn.top
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,lawbook.cf
+
+# 用途不明，待确认（安全评分极低）
+DOMAIN-SUFFIX,weatheroffer.com
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,jinky.top
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,sub.nysubs.xyz
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,huawei8.live
+
+# 用途不明，待确认
+DOMAIN-SUFFIX,xiaohuangrentv.com
+
+# 用途不明，待确认
 DOMAIN-SUFFIX,wd-red.com
-DOMAIN-SUFFIX,smartmailcloud.com
-DOMAIN-SUFFIX,gravatar.com
+
+# 用途不明，待确认
+DOMAIN-KEYWORD,wd-gold
+
+# > 漏网之鱼 2026-10-11
+
+# 韩愈 AI（SEO/API 服务）
+DOMAIN-SUFFIX,hanyuai.com
+
+# Buyandship 转运官网
+DOMAIN-SUFFIX,buyandship.today
+
+# 图片 SEO 服务站
+DOMAIN-SUFFIX,tupianseo.com
+
+# 群晖官网（CDN 前端无耦合，直连）
+DOMAIN-SUFFIX,synology.com
+
+# iStat Menus（macOS 监控工具）
+DOMAIN-SUFFIX,istatmenus.app
+
+# 电子前哨基金会
+DOMAIN-SUFFIX,eff.org
+
+# Garmin 设备天气服务
+DOMAIN-SUFFIX,dciwx.com
+
+# Home Assistant
+DOMAIN-SUFFIX,home-assistant.io
+
+# IntroDB（片头跳过数据库）
+DOMAIN-SUFFIX,theintrodb.org
+
+# IntroDB（片头跳过数据库）
+DOMAIN-SUFFIX,introdb.app
+
+# 影视元数据 API 服务（Internet Video Archive）
+DOMAIN-SUFFIX,iva-api.com
+
+# B 站广告跳过插件官网（小电视空降助手）
+DOMAIN-SUFFIX,bsbsb.top
+
+# HACS（Home Assistant 社区商店）
+DOMAIN-SUFFIX,hacs.xyz
+
+# 索尼相机相关服务
+DOMAIN-SUFFIX,ndmdhs.com
+
+# > 漏网之鱼 2026-10-12
+
+# Eazo 静态资源 CDN（CloudFront）
+DOMAIN-SUFFIX,assets.eazo.ai
+
+# MLH 黑客松平台官网
+DOMAIN-SUFFIX,mlh.com
+
+# MLH 黑客松平台
+DOMAIN-SUFFIX,mlh.io
+
+# MLH 短链/活动页
+DOMAIN-SUFFIX,mlh.link
+
+# WorkOS 登录认证 API
+DOMAIN-SUFFIX,api.workos.com
+
+# WorkOS 认证转发
+DOMAIN-SUFFIX,forwarder.workos.com
+
+# Notion 图片 CDN
+DOMAIN-SUFFIX,notionusercontent.com
+
+# Contentful 资源 CDN
+DOMAIN-SUFFIX,ctfassets.net
+
+# PostImage 图床
+DOMAIN-SUFFIX,postimg.cc
+
+# Certum 证书状态查询（OCSP）
+DOMAIN-SUFFIX,ocsp-certum.com
+
+# 国内 GitHub 加速
+DOMAIN-SUFFIX,ghfast.top
+
+# 国内 GitHub 加速
+DOMAIN-SUFFIX,git.yylx.win
+
+# > 漏网之鱼 2026-10-13
+
+# TimeBlocks（韩国手帐 App）图片 CDN
+DOMAIN-SUFFIX,timeblocks.com
+
+# 聚好链图片 CDN（香港）
+DOMAIN-SUFFIX,juhaolian.net
+
+# 涂鸦智能欧洲云 API（物联网直连，不走代理）
+DOMAIN-SUFFIX,tuyaeu.com
+
+# > 漏网之鱼 2026-10-14
+
+# Fully Kiosk Browser 官网（德国，安卓 kiosk 浏览器）
+DOMAIN-SUFFIX,fully-kiosk.com
+
+# Polite Society 印度女装 Shopify 独立站
+DOMAIN-SUFFIX,politesocietyshop.com
+
+# 印度 Shiprocket 电商物流平台
+DOMAIN-SUFFIX,shiprocket.in
+
+# Public Free Suffix 免费公益子域名服务官网
+DOMAIN-SUFFIX,is-a.si
+
+# > 漏网之鱼 2026-10-17
+
+# Ditto 香港边缘 CDN 静态资源
+DOMAIN-SUFFIX,dittocdn.com
+
+# 华硕官网（AWS CloudFront 香港边缘，无强耦合的 CDN 前端走直连）
+DOMAIN-SUFFIX,asus.com
+
+# > 漏网之鱼 2026-10-18
+
+# 涂鸦智能 IoT 设备云连接端点（凯度蒸烤箱等 Tuya 设备心跳，覆盖 h2/h3/h3-eu 变体）
+DOMAIN-SUFFIX,iot-dns.com
