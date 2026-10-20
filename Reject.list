@@ -1,45 +1,201 @@
-## > 屏蔽群辉更新
-DOMAIN-SUFFIX,update.synology.com
-DOMAIN-SUFFIX,update7.synology.com
-DOMAIN-SUFFIX,autoupdate7.synology.com
-DOMAIN-SUFFIX,autoupdate7.synology.cn
+# 由 Reject.yaml 自动同步（家里 OpenClash 用 .yaml，手机 Loon 用 .list，两份内容一致）。改规则请改 .yaml 后再同步。2026-10-20
 
-## > 屏蔽Roon
+# > 屏蔽群晖更新
+
+# > - DOMAIN-SUFFIX,update.synology.com
+# > - DOMAIN-SUFFIX,update7.synology.com
+# > - DOMAIN-SUFFIX,autoupdate7.synology.com
+# > - DOMAIN-SUFFIX,autoupdate7.synology.cn
+
+# > 屏蔽Roon
+
+# Roon 账号服务
 DOMAIN-SUFFIX,accounts5.roonlabs.com
+
+# Roon 更新
 DOMAIN-SUFFIX,updates.roonlabs.com
 
-## > 屏蔽tinymediamanager升级
+# > 屏蔽tinymediamanager升级
+
+# TinyMediaManager 更新
 DOMAIN-SUFFIX,release.tinymediamanager.org
 
-## > 屏蔽easeus激活
+# > 屏蔽easeus激活
+
+# EaseUS（激活/统计相关）
 DOMAIN-SUFFIX,easeus.com
+
+# EaseUS 官网
 DOMAIN-SUFFIX,www.easeus.com
+
+# EaseUS 激活
 DOMAIN-SUFFIX,activation.easeus.com
+
+# EaseUS 中国官网
 DOMAIN-SUFFIX,easeus.com.cn
+
+# EaseUS 中国官网
 DOMAIN-SUFFIX,www.easeus.com.cn
+
+# EaseUS 追踪统计
 DOMAIN-SUFFIX,track.easeus.com
+
+# EaseUS 追踪统计（中国）
 DOMAIN-SUFFIX,track.easeus.com.cn
+
+# EaseUS API
 DOMAIN-SUFFIX,api.easeus.com
+
+# EaseUS 更新
 DOMAIN-SUFFIX,update.easeus.com
+
+# 华为云 CDN（EaseUS 调用）
 DOMAIN-SUFFIX,map2.hwcdn.net
+
+# EaseUS 日志上报
 DOMAIN-SUFFIX,easeusinfo.us-east-1.log.aliyuncs.com
+
+# AWS 加速（EaseUS 调用）
 DOMAIN-SUFFIX,aaa100cd68bbe03f3.awsglobalaccelerator.com
+
+# EaseUS 运营统计
 DOMAIN-SUFFIX,uompro.easeus.com
+
+# EaseUS 订单
 DOMAIN-SUFFIX,order.easeus.com
+
+# curl 官网（EaseUS 相关调用）
 DOMAIN-SUFFIX,curl.haxx.se
+
+# EaseUS 购买页
 DOMAIN-SUFFIX,buy.easeus.com
+
+# EaseUS API
 DOMAIN-SUFFIX,v2api-uoss.easeus.com
 
+# > 杂项
+
+# Electronic Team（USB/串口网络工具厂商）
 DOMAIN-SUFFIX,electronic.us
 
-## > 屏蔽FinalShell 
+# > 屏蔽FinalShell
+
+# FinalShell 官网（youtusoft）
 DOMAIN-SUFFIX,www.youtusoft.com
+
+# FinalShell 官网（youtusoft）
 DOMAIN-SUFFIX,youtusoft.com
+
+# FinalShell 相关（hostbuf）
 DOMAIN-SUFFIX,hostbuf.com
+
+# FinalShell 相关（hostbuf）
 DOMAIN-SUFFIX,www.hostbuf.com
+
+# FinalShell 相关（dkys）
 DOMAIN-SUFFIX,dkys.org
+
+# FinalShell 测速
 DOMAIN-SUFFIX,tcpspeed.com
+
+# FinalShell 相关（wn1998）
 DOMAIN-SUFFIX,www.wn1998.com
+
+# FinalShell 相关（wn1998）
 DOMAIN-SUFFIX,wn1998.com
+
+# FinalShell 相关（wn1998）
 DOMAIN-SUFFIX,pwlt.wn1998.com
+
+# FinalShell 相关（hostbuf 备份）
 DOMAIN-SUFFIX,backup.www.hostbuf.com
+
+# > 漏网之鱼 2026-10-11
+
+# Mapbox 遥测上报
+DOMAIN-SUFFIX,events.mapbox.com
+
+# NEL 网络错误报告
+DOMAIN-SUFFIX,nelreports.net
+
+# > 漏网之鱼 2026-10-12
+
+# Transcend cookie 同意弹窗脚本 CDN
+DOMAIN-SUFFIX,transcend-cdn.com
+
+# > 漏网之鱼 2026-10-13
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,6djwpucn.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,onting550.top
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,leapon117.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,qfpyyn.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,haohuxx.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,6apzfdx.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,rlocn.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,kyiqiwk.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,linanks.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,meiyajudec.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,7ammupm.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,3hknyak.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,quantong.fun
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,yishenwenhua.xyz
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,ewpqd.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,szpro360.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,bzgpzil.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,82579283.com
+
+# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+DOMAIN-SUFFIX,lyjj.com
+
+# PostHog 产品分析/埋点上报
+DOMAIN-SUFFIX,posthog.com
+
+# > 漏网之鱼 2026-10-16
+
+# WonderfulDay27 域名停放页广告追踪（Above.com/Trellian，f/t+编号子域名）
+DOMAIN-SUFFIX,wonderfulday27.live
+
+# > 漏网之鱼 2026-10-17
+
+# 身份不明的随机命名域名（与 aidajijteb.com 共享证书的域名簇，圣何塞 PEG TECH 灰色机房，疑似广告跳转/欺诈基础设施）
+DOMAIN-SUFFIX,aidajivyev.com
+
+# > 2026-10-20 供应链投毒域名（自 Proxy 移入）
+
+# Polyfill JS 库 CDN（2024 年被收购后投毒，已被各大厂商封禁）
+DOMAIN-SUFFIX,polyfill.io
