@@ -422,3 +422,5 @@ payload:
   - DOMAIN-SUFFIX,youmind.ai
   - DOMAIN-SUFFIX,youmind.com
   - DOMAIN-SUFFIX,youmind.site
+  # Civitai（AI 模型分享；black7 Civitai 只含 civitai.com，关键词补全其他域名，2026-10-21 从 Proxy 移来）
+  - DOMAIN-KEYWORD,civitai
