@@ -150,6 +150,10 @@ payload:
   - DOMAIN-SUFFIX,bullionvault.com
   # 香港 SIM World 电话储值卡官网
   - DOMAIN-SUFFIX,simworld.net
+  # Flightradar24 航班动态（HA 集成 API，国内直连被 Cloudflare 403）
+  - DOMAIN-SUFFIX,flightradar24.com
+  # Flightradar24 短域名
+  - DOMAIN-SUFFIX,fr24.com
 
 ## > 成人内容
 
