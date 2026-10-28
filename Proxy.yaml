@@ -72,6 +72,8 @@ payload:
   - DOMAIN-SUFFIX,aclanthology.org
   # HIBP 密码泄露查询
   - DOMAIN-SUFFIX,pwnedpasswords.com
+  # Open VSX（VS Code 开源扩展市场，原 mihomo 内联规则移入）
+  - DOMAIN-SUFFIX,open-vsx.org
 
 ## > 网络与代理工具
 
