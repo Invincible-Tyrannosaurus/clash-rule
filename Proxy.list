@@ -180,3 +180,10 @@ DOMAIN-SUFFIX,love.chenoodesu.online
 DOMAIN-SUFFIX,huan.baby
 # 用途不明
 DOMAIN-SUFFIX,huawei8.live
+
+# Open VSX（VS Code 开源扩展市场）— 2026-11-07 补齐，与 Proxy.yaml 一致
+DOMAIN-SUFFIX,open-vsx.org
+# Flightradar24 航班动态（国内直连被 Cloudflare 403）
+DOMAIN-SUFFIX,flightradar24.com
+# Flightradar24 短域名
+DOMAIN-SUFFIX,fr24.com

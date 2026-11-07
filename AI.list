@@ -236,6 +236,7 @@ DOMAIN-SUFFIX,blackforestlabs.ai
 # Recraft
 DOMAIN-SUFFIX,recraft.ai
 # Civitai
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,civitai.com
 # Tensor.Art
 DOMAIN-SUFFIX,tensor.art
@@ -375,6 +376,7 @@ DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
 DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,grazie.ai
@@ -403,9 +405,13 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,opal.google
 DOMAIN-SUFFIX,opal.google.com
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,openai.org
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,openai.qualtrics.com
+# （仅手机 Loon 需要：家里 mihomo 已由 blackmatrix7 规则集覆盖，所以 AI.yaml 里没有这条）
 DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openspec.dev

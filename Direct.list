@@ -200,6 +200,9 @@ DOMAIN-SUFFIX,078465.xyz
 # CF 优选测速域名
 DOMAIN-SUFFIX,301308.xyz
 
+# openOS（从旧 direct.list 迁入，2026-11-07）
+DOMAIN-SUFFIX,openos.org
+
 # > 博客与资讯
 
 # 毒奶博客（科学上网/资源分享）
