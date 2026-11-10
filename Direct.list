@@ -8,6 +8,12 @@ DOMAIN-SUFFIX,7788996.xyz
 DOMAIN-SUFFIX,tailscale.com
 # Tailscale（组网）
 DOMAIN-SUFFIX,tailscale.io
+# Tailscale（组网，MagicDNS 域名）
+DOMAIN-SUFFIX,ts.net
+# Tailscale 网段（11-11 由 Mihomo.yaml 行内规则并入）
+IP-CIDR,100.64.0.0/10,no-resolve
+# 局域网 192.168.x（11-11 由 Mihomo.yaml 行内规则并入）
+IP-CIDR,192.168.0.0/16,no-resolve
 # Plex（媒体服务器）
 DOMAIN-SUFFIX,plex.tv
 # 群晖 QuickConnect / Cloud Sync 全部子域

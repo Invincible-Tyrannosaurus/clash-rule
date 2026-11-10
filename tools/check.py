@@ -7,7 +7,7 @@
 失败时退出码 1。"""
 import collections, os, re, sys
 
-PAIRS = ["AI", "PT", "Proxy", "Reject", "Direct", "Oracle"]
+PAIRS = ["AI", "PT", "Proxy", "Reject", "Direct", "Oracle", "Talkatone"]
 TYPES = re.compile(r"^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-REGEX|DOMAIN-WILDCARD|IP-CIDR6?|IP-ASN|IP-SUFFIX|GEOIP|GEOSITE|PROCESS-NAME|DST-PORT|SRC-IP-CIDR|USER-AGENT|URL-REGEX|AND|OR|NOT),")
 bad = []
 
