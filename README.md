@@ -26,3 +26,14 @@ python3 tools/loon_gen.py --private /opt/Workspace/Tools/LoonGen/private.conf --
 - 订阅链接、节点过滤、插件、MITM 证书、[General] 来自 `--private`（只在 .43，权限 600，**不进本仓库**）。
 - 家里有、手机不引用的（PT 纯 IP 段、非标端口、拦截加密 DNS）和手机专用的（微信 / 腾讯直连、TestFlight、Crypto）写在脚本开头 `SKIP` / `PHONE_EXTRA`，各带原因。
 
+## Mac Surge 配置（同一份规则）
+
+`tools/surge_gen.py` 用和 Loon 同一张对照表生成 Surge 配置（RULE-SET 一律 no-resolve，blackmatrix 的 _Domain 用 DOMAIN-SET，地区组用 smart 组 + 家里同样的筛选正则）：
+
+```
+python3 tools/surge_gen.py --private /opt/Workspace/Tools/LoonGen/surge-private.conf --loon-private /opt/Workspace/Tools/LoonGen/private.conf --out /opt/Workspace/Tools/LoonGen/out/Surge-$(date +%Y%m%d).conf
+```
+
+- `--private`：Surge 私有部分（[General]、[Host]、[SSID Setting] 和排在最前的工作网络规则），只在 .43，不进仓库。
+- 机场订阅链接从 Loon 私有配置里取，Surge 按自己的格式去下载。
+
