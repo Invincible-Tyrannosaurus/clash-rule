@@ -15,7 +15,7 @@
   - smart / url-test 地区组 → Loon url-test + 对应节点过滤器；「只列某地区单个节点」的 select 组 → select + 过滤器
   - 家里的 RULE-SET → 同一来源的 Loon .list（blackmatrix 有 _Domain 的一并引用）
   - GEOSITE、非标端口、MATCH 在 Loon 没有对应，见 SKIP；手机兜底统一 FINAL,漏网之鱼
-  - 手机专用的几条见 PHONE_EXTRA（机场订阅直连、微信 / 腾讯直连、TestFlight、Crypto）
+  - 手机专用的几条见 PHONE_EXTRA（微信 / 腾讯直连、TestFlight、Crypto）
 """
 import argparse, re, subprocess, sys, urllib.request, os, datetime
 import yaml
@@ -50,9 +50,8 @@ GEOSITE_NOTE = {   # 家里的 GEOSITE 规则在手机上由谁兜住
     'google-cn': 'ChinaMax', 'category-games@cn': 'ChinaMax', 'category-game-platforms-download': 'Steam_CDN / Download',
     'private': 'Lan 名单', 'category-ai-!cn': 'AI 各名单', 'cn': 'ChinaMax',
 }
-TALKATONE = ['talkatone.com', 'tktn.at', 'tktn.be']   # geosite talkatone 的核心三条
 PHONE_EXTRA = {   # (插在家里哪个规则集后面 / 前面, Loon 名单, 策略, 标签)
-    'top_local': ['DOMAIN-KEYWORD,linkcube,DIRECT'],   # 机场订阅必须直连
+    'top_local': [],   # 11-11 起本地规则都并进了仓库名单（linkcube 在 Direct 里）
     'after': {
         'Direct_Invincible': [(BM + 'WeChat/WeChat.list', '全球直连', '手机-微信'), (BM + 'Tencent/Tencent.list', '全球直连', '手机-腾讯'),
                               (BM + 'Tencent/Tencent_Domain.list', '全球直连', '手机-腾讯-域名')],
@@ -172,10 +171,7 @@ def rules_to_loon(rules, providers, home_groups):
             for u, ppol, tag in PHONE_EXTRA['after'].get(name, []):
                 remote.append((u, ppol, tag))
         elif t == 'GEOSITE':
-            if p[1] == 'talkatone':
-                local += [f'DOMAIN-SUFFIX,{d},{clean(p[2])}' for d in TALKATONE]
-            else:
-                notes.append(f'GEOSITE,{p[1]} 手机上由 {GEOSITE_NOTE.get(p[1], "后面的名单")} 兜住')
+            notes.append(f'GEOSITE,{p[1]} 手机上由 {GEOSITE_NOTE.get(p[1], "后面的名单")} 兜住')
         elif t == 'GEOIP' and p[1].lower() == 'private':
             notes.append('GEOIP,private 手机上由 Lan 名单和 skip-proxy 兜住（Loon 的 GeoIP 库没有 private）')
         elif t in ('IP-CIDR', 'IP-CIDR6', 'GEOIP', 'IP-ASN'):

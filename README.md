@@ -24,5 +24,5 @@ python3 tools/loon_gen.py --private /opt/Workspace/Tools/LoonGen/private.conf --
 
 - 规则顺序、规则集、策略组都和家里一致；组名去掉图标，「手动切换」写成「指定节点」（和面板一致）。
 - 订阅链接、节点过滤、插件、MITM 证书、[General] 来自 `--private`（只在 .43，权限 600，**不进本仓库**）。
-- 家里有、手机不引用的（PT 纯 IP 段、非标端口、拦截加密 DNS）和手机专用的（机场订阅直连、微信 / 腾讯直连、TestFlight、Crypto）写在脚本开头 `SKIP` / `PHONE_EXTRA`，各带原因。
+- 家里有、手机不引用的（PT 纯 IP 段、非标端口、拦截加密 DNS）和手机专用的（微信 / 腾讯直连、TestFlight、Crypto）写在脚本开头 `SKIP` / `PHONE_EXTRA`，各带原因。
 
