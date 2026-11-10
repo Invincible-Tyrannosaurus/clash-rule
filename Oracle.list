@@ -1,0 +1,19 @@
+# Oracle：由 Oracle.yaml 同步，改规则请改 .yaml。2026-11-10 新建
+# 甲骨文云 Oracle Cloud：全部直连（BoBo 2026-11-10 要求单独成表）。改规则请改 .yaml，再把同一条加到 Oracle.list
+
+# 甲骨文官网、账号登录
+DOMAIN-SUFFIX,oracle.com
+# OCI 控制台、API、对象存储、身份认证（*.oraclecloud.com）
+DOMAIN-SUFFIX,oraclecloud.com
+# OCI 新版服务域名（对象存储 / 数据库等）
+DOMAIN-SUFFIX,customer-oci.com
+# OCI 容器镜像仓库
+DOMAIN-SUFFIX,ocir.io
+# 甲骨文网站静态资源
+DOMAIN-SUFFIX,oracleimg.com
+# 甲骨文网站统计脚本（控制台页面依赖）
+DOMAIN-SUFFIX,oracleinfinity.io
+# Oracle Cloud 机房 IP（自己的 VPS 用 IP 直接连时）
+IP-ASN,31898,no-resolve
+# Oracle 公司网段
+IP-ASN,792,no-resolve

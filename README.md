@@ -4,8 +4,8 @@
 
 | 文件 | 谁在用 | 说明 |
 |---|---|---|
-| `Mihomo.yaml` | 家里代理机 VM101 的 mihomo | 全部规则顺序 + 51 个规则集；每天 04:30 由 `mihomo-rules-sync` 同步过去，校验不过（含 PT 保护）不应用 |
-| `Direct / Proxy / AI / Reject / PT .yaml` | 家里 mihomo（经 Mihomo.yaml 引用） | 自己维护的直连 / 代理 / AI / 拦截 / PT 名单 |
+| `Mihomo.yaml` | 家里代理机 VM101 的 mihomo | 全部规则顺序 + 52 个规则集；每天 04:30 由 `mihomo-rules-sync` 同步过去，校验不过（含 PT 保护）不应用 |
+| `Direct / Proxy / AI / Reject / PT / Oracle .yaml` | 家里 mihomo（经 Mihomo.yaml 引用） | 自己维护的直连 / 代理 / AI / 拦截 / PT / 甲骨文云（直连）名单 |
 | 同名 `.list` | 手机 Loon、订阅转换模板 | 和 `.yaml` 一致；可以多出"仅手机"的条目（家里已被其他规则集覆盖） |
 | `clash-diy*.ini`、`surge-diy.conf` | 订阅转换（手机 / 电脑客户端） | 引用上面的 `.list` |
 | `Crypto.list`、`NeteaseMusic.list`、`CF_Direct.yaml` | 仓库内没有引用 | 可能被手机或电脑的配置按链接直接使用，删除前先确认 |
