@@ -1,5 +1,5 @@
 # Oracle：由 Oracle.yaml 同步，改规则请改 .yaml。2026-11-10 新建
-# 甲骨文云 Oracle Cloud：全部直连（BoBo 2026-11-10 要求单独成表）。改规则请改 .yaml，再把同一条加到 Oracle.list
+# 甲骨文云 Oracle Cloud：家里走「☁️ 甲骨文云」组（默认直连，可在面板切到代理；BoBo 2026-11-10 要求单独成表）。改规则请改 .yaml，再把同一条加到 Oracle.list
 
 # 甲骨文官网、账号登录
 DOMAIN-SUFFIX,oracle.com

@@ -336,7 +336,7 @@ rules:
 - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 - RULE-SET,Reject,⛔ 禁止访问,no-resolve
 - RULE-SET,Direct_Invincible,🎯 全球直连,no-resolve
-- RULE-SET,Oracle,🎯 全球直连
+- RULE-SET,Oracle,☁️ 甲骨文云
 - RULE-SET,Lan,🎯 全球直连,no-resolve
 - RULE-SET,Proxy_Invincible,✈️ 节点选择,no-resolve
 - RULE-SET,Custom_Proxy_Classical,✈️ 节点选择,no-resolve
