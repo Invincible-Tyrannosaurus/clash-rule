@@ -3,7 +3,7 @@
 
 来源：本仓库 Mihomo.yaml（规则顺序）+ VM101 策略组（经 ssh）+ 两个私有文件（都不进仓库）：
   --private      Surge 私有部分：[General] [Host] [SSID Setting] 和要排在最前面的 [Rule]（工作网络等）
-  --loon-private 手机 Loon 的私有配置，只从里面取机场订阅链接（同一个订阅，Surge 自己按 Surge 格式下载）
+  --loon-private 手机 Loon 的私有配置；--private 里没有 [机场订阅] 段时，才从这里取订阅链接
 脚本生成 [Proxy Group] 和 [Rule]，其余段原样取自 --private。
 
 用法（在 .43）：
@@ -65,11 +65,19 @@ def main():
                              capture_output=True, text=True, check=True).stdout
         cfg = yaml.safe_load(txt)
     groups = [g for g in cfg['proxy-groups'] if not g.get('hidden')]
-    loon = open(a.loon_private, encoding='utf-8').read()
-    m = re.search(r'^\[Remote Proxy\]\s*\n(?:#.*\n|\s*\n)*[^=\n]+=\s*(https?://[^,\s]+)', loon, re.M)
-    if not m:
-        raise SystemExit('Loon 私有配置里找不到机场订阅链接')
-    sub_url = m.group(1)
+    # 机场订阅：优先用 --private 里 [机场订阅] 段的 Surge 专用链接（这一段只给脚本看，不写进生成的配置），没有才用 Loon 的
+    priv_txt = open(a.private, encoding='utf-8').read()
+    m = re.search(r'^\[机场订阅\]\s*\n(?:#.*\n|\s*\n)*\s*(https?://\S+)', priv_txt, re.M)
+    if m:
+        sub_url = m.group(1); sub_from = 'Surge 私有部分里的 Surge 专用订阅'
+    else:
+        loon = open(a.loon_private, encoding='utf-8').read()
+        m = re.search(r'^\[Remote Proxy\]\s*\n(?:#.*\n|\s*\n)*[^=\n]+=\s*(https?://[^,\s]+)', loon, re.M)
+        if not m:
+            raise SystemExit('私有部分和 Loon 私有配置里都找不到机场订阅链接')
+        sub_url = m.group(1); sub_from = 'Loon 私有配置里的订阅（Surge 不一定认这个格式）'
+    if ',' in sub_url:
+        raise SystemExit('订阅链接里有逗号，policy-path 会被拆错')
 
     # 规则：沿用 loon_gen 的翻译（同一张对照表、同样的跳过和手机专用项）
     local, remote, notes = L.rules_to_loon(home['rules'], home['rule-providers'], groups)
@@ -88,7 +96,10 @@ def main():
     sections, order, sec = {}, [], None
     for l in priv:
         if l.startswith('['):
-            sec = l.strip(); sections[sec] = []; order.append(sec); continue
+            sec = l.strip(); sections[sec] = []
+            if sec != '[机场订阅]':
+                order.append(sec)
+            continue
         if sec:
             sections[sec].append(l)
     top = [l for l in sections.get('[Rule]', []) if l.strip()]
@@ -120,6 +131,7 @@ def main():
     with os.fdopen(fd, 'w', encoding='utf-8') as f:
         f.write(txt + '\n')
     print(f'策略组 {len(g_lines)}（含隐藏订阅组），私有规则 {len(top)}，生成规则 {len(rules)} → {a.out}')
+    print(f'  机场订阅来自：{sub_from}')
     for n in notes:
         print('  说明：' + n)
 

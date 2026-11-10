@@ -35,5 +35,5 @@ python3 tools/surge_gen.py --private /opt/Workspace/Tools/LoonGen/surge-private.
 ```
 
 - `--private`：Surge 私有部分（[General]、[Host]、[SSID Setting] 和排在最前的工作网络规则），只在 .43，不进仓库。
-- 机场订阅链接从 Loon 私有配置里取，Surge 按自己的格式去下载。
+- 机场订阅：私有部分里 `[机场订阅]` 段写 Surge 专用订阅链接（这一段只给脚本读，不进生成的配置）；没有时才用 Loon 私有配置里的链接。
 
