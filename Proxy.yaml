@@ -148,6 +148,10 @@ payload:
   - DOMAIN-SUFFIX,backgroundchecks.org
   # Skinny（新西兰运营商）
   - DOMAIN-SUFFIX,skinny.co.nz
+  # One NZ（新西兰运营商，原 Vodafone NZ：官网、App、eSIM、登录）
+  - DOMAIN-SUFFIX,one.nz
+  # One NZ App 里的网络测速 SDK（umlaut）
+  - DOMAIN-SUFFIX,crowd-umlaut.com
   # 贵金属在线交易平台
   - DOMAIN-SUFFIX,bullionvault.com
   # 香港 SIM World 电话储值卡官网
