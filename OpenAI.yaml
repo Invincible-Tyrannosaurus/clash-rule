@@ -36,6 +36,12 @@ payload:
   - DOMAIN,o33249.ingest.us.sentry.io
   - DOMAIN,openai.qualtrics.com
 
+  # --- ChatGPT 付款（Stripe）：付款页、风控指纹都跟 ChatGPT 走同一个出口，免得换区开会员时 IP 对不上被拦
+  #     （11-19 前 m.stripe.network 被 ChinaMax 带去直连，暴露国内 IP）；副作用：别的网站用 Stripe 付款也走这条
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,stripecdn.com
+
   # --- IP（blackmatrix7 收录的两个 OpenAI 实时语音服务 IP；它带的整个 Vultr AS20473 / DigitalOcean AS14061 太宽，不收）
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
