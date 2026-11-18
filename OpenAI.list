@@ -1,0 +1,39 @@
+# 由 OpenAI.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）。2026-11-19
+
+
+# --- 官方域名（v2fly openai + blackmatrix7 OpenAI 里 OpenAI 自己的）
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicom.imgix.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+# （Loon / Surge 不支持正则，手机上这条省略）DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,ai.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-KEYWORD,openai
+
+# --- ChatGPT 网页 / App 用到的第三方，只收 OpenAI 专用的子域
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o33249.ingest.us.sentry.io
+DOMAIN,openai.qualtrics.com
+
+# --- IP（blackmatrix7 收录的两个 OpenAI 实时语音服务 IP；它带的整个 Vultr AS20473 / DigitalOcean AS14061 太宽，不收）
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve

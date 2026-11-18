@@ -86,50 +86,32 @@ rule-providers:
   OpenAI:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.yaml
-    path: ./rule_provider/OpenAI.yaml
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/OpenAI.yaml
+    path: ./rule_provider/OpenAI_Invincible.yaml
     interval: 86400
   Copilot:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.yaml
-    path: ./rule_provider/Copilot.yaml
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Copilot.yaml
+    path: ./rule_provider/Copilot_Invincible.yaml
     interval: 86400
   Claude:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.yaml
-    path: ./rule_provider/Claude.yaml
-    interval: 86400
-  Anthropic:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Anthropic/Anthropic.yaml
-    path: ./rule_provider/Anthropic.yaml
-    interval: 86400
-  Civitai:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Civitai/Civitai.yaml
-    path: ./rule_provider/Civitai.yaml
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Claude.yaml
+    path: ./rule_provider/Claude_Invincible.yaml
     interval: 86400
   Gemini:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.yaml
-    path: ./rule_provider/Gemini.yaml
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Gemini.yaml
+    path: ./rule_provider/Gemini_Invincible.yaml
     interval: 86400
   AI:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/AI.yaml
     path: ./rule_provider/AI.yaml
-    interval: 86400
-  Claude_Invincible:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Claude.yaml
-    path: ./rule_provider/Claude_Invincible.yaml
     interval: 86400
   Grok:
     type: http
@@ -363,14 +345,10 @@ rules:
 - RULE-SET,Encrypted_DNS_Classical,⛔ 禁止访问,no-resolve
 - RULE-SET,Grok,🤖 Grok,no-resolve
 - RULE-SET,OpenAI,🤖 ChatGPT,no-resolve
-- RULE-SET,Copilot,🤖 AI服务,no-resolve
-- RULE-SET,Claude_Invincible,🤖 Claude,no-resolve
 - RULE-SET,Claude,🤖 Claude,no-resolve
 - RULE-SET,Gemini,🤖 Gemini,no-resolve
-- RULE-SET,Anthropic,🤖 Claude,no-resolve
-- RULE-SET,Civitai,🤖 AI服务,no-resolve
+- RULE-SET,Copilot,🤖 AI服务,no-resolve
 - RULE-SET,AI,🤖 AI服务,no-resolve
-- GEOSITE,category-ai-!cn,🤖 AI服务
 - RULE-SET,Telegram,📲 Telegram,no-resolve
 - RULE-SET,Talkatone,📞 Talkatone,no-resolve
 - RULE-SET,Twitter,🕊️ Twitter(X),no-resolve

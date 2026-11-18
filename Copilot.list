@@ -1,0 +1,21 @@
+# 由 Copilot.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）。2026-11-19
+
+
+# --- GitHub Copilot（v2fly github-copilot）
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+
+# --- 微软 Copilot（v2fly category-ai-!cn + blackmatrix7 Copilot 里 Copilot 专用的）
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# --- 不收：blackmatrix7 Copilot 里的 www.bing.com、msn、Windows 遥测（self.events.data.microsoft.com）、Office、整段 ASN——家里记录到它们把普通微软流量带进了 AI

@@ -1,7 +1,11 @@
-# 由 Grok.yaml 同步（家里用 .yaml，手机 Loon 用 .list，两份内容一致）。2026-11-18
+# 由 Grok.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）。2026-11-19
 
-# > xAI Grok（从 AI 拆出来；X 本身仍走 Twitter）
-DOMAIN-SUFFIX,x.ai
+
+# --- 官方域名（v2fly xai）
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai
+
+# --- 不收 IP：xAI 没有公布独立网段

@@ -7,7 +7,7 @@
 失败时退出码 1。"""
 import collections, os, re, sys
 
-PAIRS = ["AI", "Grok", "Claude", "PT", "Proxy", "Reject", "Direct", "Oracle", "Talkatone"]
+PAIRS = ["AI", "OpenAI", "Claude", "Gemini", "Grok", "Copilot", "PT", "Proxy", "Reject", "Direct", "Oracle", "Talkatone"]
 TYPES = re.compile(r"^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-REGEX|DOMAIN-WILDCARD|IP-CIDR6?|IP-ASN|IP-SUFFIX|GEOIP|GEOSITE|PROCESS-NAME|DST-PORT|SRC-IP-CIDR|USER-AGENT|URL-REGEX|AND|OR|NOT),")
 bad = []
 
@@ -46,7 +46,7 @@ for p in PAIRS:
         bad += [f"{name} 重复：{k}" for k, v in c.items() if v > 1]
         bad += [f"{name}:{n} 规则类型不认识：{r}" for n, r in rs if not TYPES.match(r)]
     ly, yy = {key(r) for _, r in L}, {key(r) for _, r in Y}
-    bad += [f"{p}.list 缺少 {p}.yaml 里的：{r}" for _, r in Y if key(r) not in ly]
+    bad += [f"{p}.list 缺少 {p}.yaml 里的：{r}" for _, r in Y if key(r) not in ly and not r.startswith("DOMAIN-REGEX")]  # 正则 Loon / Surge 不支持，手机上省略
     extra = [r for _, r in L if key(r) not in yy]
     if extra:
         print(f"提示：{p}.list 比 .yaml 多 {len(extra)} 条（仅手机）")

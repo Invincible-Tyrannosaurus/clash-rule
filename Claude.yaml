@@ -1,5 +1,35 @@
 payload:
 
-## > Claude 补充（blackmatrix7 的 Claude / Anthropic 名单里没有的，走 🤖 Claude 组）2026-11-19
-  # Claude Code 运行日志上报（Datadog US5 收集口）；原先被 GEOSITE category-ai-!cn 带到 AI服务
-  - DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com
+## > Claude / Anthropic
+## 自己维护，2026-11-19 起家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 Claude
+
+  # --- 官方域名（v2fly anthropic + blackmatrix7 Claude / Anthropic）
+  - DOMAIN-SUFFIX,ant.dev
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,anthropic.team
+  - DOMAIN-SUFFIX,antspace.dev
+  - DOMAIN-SUFFIX,chatbotclaude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.app
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.dev
+  - DOMAIN-SUFFIX,claude.new
+  - DOMAIN-SUFFIX,claude.site
+  - DOMAIN-SUFFIX,claudeacademy.com
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+  - DOMAIN-SUFFIX,claudepages.dev
+  - DOMAIN-SUFFIX,claudestudio.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+
+  # --- Claude / Claude Code 用到的第三方，只收 Anthropic 专用的
+  # Claude Code 运行日志上报（Datadog US5 收集口）
+  - DOMAIN,http-intake.logs.us5.datadoghq.com
+  # Claude 错误上报（Sentry，Anthropic 自己的组织号）
+  - DOMAIN,o1158394.ingest.us.sentry.io
+
+  # --- IP（Anthropic 官方公布的 API 入口网段，docs.anthropic.com「IP addresses」）
+  - IP-CIDR,160.79.104.0/23,no-resolve
+  - IP-CIDR6,2607:6bc0::/48,no-resolve
