@@ -93,6 +93,8 @@ DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,steamconnecttest.com
 # Apple 私密中继
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+# HedgeVPN
+DOMAIN-SUFFIX,hedgevpn.com
 
 # > 人机验证与风控
 
@@ -111,6 +113,10 @@ DOMAIN-KEYWORD,sms-activation
 DOMAIN-SUFFIX,sms-activate.ru
 # SMS-Activate
 DOMAIN-SUFFIX,sms-activate.org
+# ZuSMS 接码平台
+DOMAIN-SUFFIX,zusms.com
+# 短信接码（seo99 旗下 duanxinjiema）
+DOMAIN-SUFFIX,seo99.cc
 
 # > 论坛与资讯
 
@@ -154,6 +160,14 @@ DOMAIN-SUFFIX,crowd-umlaut.com
 DOMAIN-SUFFIX,bullionvault.com
 # 香港 SIM World 电话储值卡官网
 DOMAIN-SUFFIX,simworld.net
+# SoSIM 香港电话卡（含客服）
+DOMAIN-SUFFIX,sosimhk.com
+# Saily eSIM（Nord 旗下）
+DOMAIN-SUFFIX,saily.com
+# Nord 系 CDN（Saily App 用）
+DOMAIN-SUFFIX,nordcdn.com
+# Wise 跨境转账
+DOMAIN-SUFFIX,wise.com
 
 # > 成人内容
 
