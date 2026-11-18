@@ -275,29 +275,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/Game.yaml
     path: ./rule_provider/Game.yaml
     interval: 86400
-  Proxy_Blackmatrix:
+  GeoNonCN:
     type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.yaml
-    path: ./rule_provider/Proxy_Blackmatrix.yaml
-    interval: 86400
-  PROXY_LM:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/LM-Firefly/Rules/refs/heads/master/Clash-RuleSet-Classical/PROXY.yaml
-    path: ./rule_provider/PROXY_LM.yaml
-    interval: 86400
-  ProxyGFWlist:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml
-    path: ./rule_provider/ProxyGFWlist.yaml
-    interval: 86400
-  ChinaMax:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
-    path: ./rule_provider/ChinaMax_Classical.yaml
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.mrs
+    path: ./rule_provider/GeoNonCN.mrs
     interval: 86400
   DMCA_Sensitive:
     type: http
@@ -375,10 +358,7 @@ rules:
 - RULE-SET,IPTVMainland,🌏 国内媒体,no-resolve
 - RULE-SET,GlobalMedia,🌍 国外媒体,no-resolve
 - RULE-SET,Game,🎮 游戏平台,no-resolve
-- RULE-SET,Proxy_Blackmatrix,✈️ 节点选择,no-resolve
-- RULE-SET,PROXY_LM,✈️ 节点选择,no-resolve
-- RULE-SET,ProxyGFWlist,✈️ 节点选择,no-resolve
-- RULE-SET,ChinaMax,🎯 全球直连,no-resolve
+- RULE-SET,GeoNonCN,✈️ 节点选择,no-resolve
 - RULE-SET,DMCA_Sensitive,🎯 全球直连,no-resolve
 - RULE-SET,NTPService,🎯 全球直连,no-resolve
 - RULE-SET,Download,🎯 全球直连,no-resolve

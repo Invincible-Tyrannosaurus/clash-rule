@@ -39,7 +39,13 @@ SPECIAL = {
     'PROXY_LM': [GH + 'LM-Firefly/Rules/master/PROXY.list'],
     'DMCA_Sensitive': [GH + 'LM-Firefly/Rules/master/Special/DMCA-Sensitive.list'],
     'ProxyGFWlist': [GH + 'ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list'],
+    # 11-19 家里把 Proxy_Blackmatrix / PROXY_LM / ProxyGFWlist 合成 MetaCubeX geolocation-!cn（mrs 二进制，Loon 用不了）；
+    # 手机仍用原来这几份文本名单，顺序不变
+    'GeoNonCN': [BM + 'Proxy/Proxy.list', BM + 'Proxy/Proxy_Domain.list', GH + 'LM-Firefly/Rules/master/PROXY.list',
+                 GH + 'ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list'],
 }
+# 一个家里规则集对应多份手机名单时各自的标签（Loon 标签要唯一）
+TAGS = {'GeoNonCN': ['Proxy_Blackmatrix', 'Proxy_Blackmatrix-域名', 'PROXY_LM', 'ProxyGFWlist']}
 SKIP = {   # 家里有、手机不引用的规则集，及原因
     'PT_IP': '只有纯 IP 段没有 Loon 格式；手机不跑 PT，PT 域名名单照样直连',
     'Custom_Port_Direct': '作者只出 Clash 格式；手机不做「非标端口直连」，兜底统一走漏网之鱼',
@@ -56,6 +62,8 @@ PHONE_EXTRA = {   # (插在家里哪个规则集后面 / 前面, Loon 名单, �
         'Direct_Invincible': [(BM + 'WeChat/WeChat.list', '全球直连', '手机-微信'), (BM + 'Tencent/Tencent.list', '全球直连', '手机-腾讯'),
                               (BM + 'Tencent/Tencent_Domain.list', '全球直连', '手机-腾讯-域名')],
         'Proxy_Invincible': [(ME + 'Crypto.list', '节点选择', '手机-Crypto')],
+        # 11-19 家里去掉了 ChinaMax（国内域名在 MosDNS 那一步就直连，几乎到不了 mihomo）；手机没有 MosDNS，照旧要它
+        'GeoNonCN': [(BM + 'ChinaMax/ChinaMax_No_IPv6.list', '全球直连', 'ChinaMax'), (BM + 'ChinaMax/ChinaMax_Domain.list', '全球直连', 'ChinaMax-域名')],
     },
     'before': {'Apple': [(BM + 'TestFlight/TestFlight.list', '节点选择', '手机-TestFlight')]},
 }
@@ -175,7 +183,7 @@ def rules_to_loon(rules, providers, home_groups):
                 remote.append((u, ppol, tag))
             lists = loon_lists(name, providers[name]['url'])
             for i, u in enumerate(lists):
-                remote.append((u, pol, name + ('' if i == 0 else '-域名')))
+                remote.append((u, pol, TAGS[name][i] if name in TAGS else name + ('' if i == 0 else '-域名')))
             for u, ppol, tag in PHONE_EXTRA['after'].get(name, []):
                 remote.append((u, ppol, tag))
         elif t == 'GEOSITE':
