@@ -1,0 +1,7 @@
+# 由 Grok.yaml 同步（家里用 .yaml，手机 Loon 用 .list，两份内容一致）。2026-11-18
+
+# > xAI Grok（从 AI 拆出来；X 本身仍走 Twitter）
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com

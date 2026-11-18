@@ -125,6 +125,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/AI.yaml
     path: ./rule_provider/AI.yaml
     interval: 86400
+  Grok:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Grok.yaml
+    path: ./rule_provider/Grok.yaml
+    interval: 86400
   GitHub:
     type: http
     behavior: classical
@@ -349,6 +355,7 @@ rules:
 - GEOSITE,private,🎯 全球直连
 - GEOIP,private,🎯 全球直连,no-resolve
 - RULE-SET,Encrypted_DNS_Classical,⛔ 禁止访问,no-resolve
+- RULE-SET,Grok,🤖 Grok,no-resolve
 - RULE-SET,OpenAI,🤖 ChatGPT,no-resolve
 - RULE-SET,Copilot,🤖 AI服务,no-resolve
 - RULE-SET,Claude,🤖 Claude,no-resolve

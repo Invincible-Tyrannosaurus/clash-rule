@@ -71,7 +71,7 @@ ICON_FALLBACK = {   # 家里图标不在 Koolson/Qure 时用的公开图标
 }
 ALIAS = {'手动切换': '指定节点'}
 # 家里按 AI 工具分的组（11-18 起）：手机 / Mac 上仍合成一个「AI服务」，规则指向它，不单独生成组
-PHONE_MERGE = {'ChatGPT': 'AI服务', 'Claude': 'AI服务', 'Gemini': 'AI服务'}
+PHONE_MERGE = {'ChatGPT': 'AI服务', 'Claude': 'AI服务', 'Gemini': 'AI服务', 'Grok': 'AI服务'}
 # 家里「AI服务」的筛选里加了台湾 / 日本 / 新加坡；手机仍只用美国节点
 PHONE_FILTER = {'AI服务': 'US美国节点'}
 # 私有部分（旧手机配置）插件里的旧组名 → 新组名

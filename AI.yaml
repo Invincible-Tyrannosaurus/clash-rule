@@ -45,9 +45,6 @@ payload:
   # ChatGPT/Claude/Gemini/Copilot 主域名由 blackmatrix7 专属规则覆盖；国内 AI（DeepSeek/Kimi/豆包/千问/元宝/智谱）走直连，不放这里
 
   # --- 对话 / 搜索 ---
-  # xAI Grok
-  - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-SUFFIX,grok.com
   # Perplexity
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,perplexity.com
@@ -377,8 +374,6 @@ payload:
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
-  - DOMAIN-SUFFIX,grok.x.com
-  - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,h2o.ai
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,jules.google.com

@@ -1,0 +1,7 @@
+payload:
+
+## > xAI Grok（11-18 从 AI.yaml 拆出来，走 🤖 Grok 组；X 本身仍走 Twitter）
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grok.x.com
+  - DOMAIN-SUFFIX,grokipedia.com
