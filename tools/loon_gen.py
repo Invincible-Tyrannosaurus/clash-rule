@@ -70,6 +70,10 @@ ICON_FALLBACK = {   # 家里图标不在 Koolson/Qure 时用的公开图标
     '亚马逊': GH + 'Koolson/Qure/master/IconSet/Color/Prime_Video.png',
 }
 ALIAS = {'手动切换': '指定节点'}
+# 家里按 AI 工具分的组（11-18 起）：手机 / Mac 上仍合成一个「AI服务」，规则指向它，不单独生成组
+PHONE_MERGE = {'ChatGPT': 'AI服务', 'Claude': 'AI服务', 'Gemini': 'AI服务'}
+# 家里「AI服务」的筛选里加了台湾 / 日本 / 新加坡；手机仍只用美国节点
+PHONE_FILTER = {'AI服务': 'US美国节点'}
 # 私有部分（旧手机配置）插件里的旧组名 → 新组名
 OLDMAP = {'Bilibili': '哔哩哔哩', 'YouTube': '油管', 'Netflix': '奈飞', 'Tencent': '全球直连', 'ChatGPT': 'AI服务', 'PayPal': 'Paypal', 'Speed Test': 'Speedtest', '手动选择': '指定节点'}
 
@@ -133,10 +137,14 @@ def groups_to_loon(groups, filters):
     out = []
     for g in groups:
         name = clean(g['name']); t = g['type']; ic = icon(g, name)
+        if name in PHONE_MERGE:
+            continue
         tail = f',img-url = {ic}' if ic else ''
         if g.get('use'):
             code = region_of(g['name']) if t in ('smart', 'url-test', 'fallback', 'load-balance') else region_of(str(g.get('filter', '')))
-            if name == '指定节点':
+            if name in PHONE_FILTER:
+                f = PHONE_FILTER[name]
+            elif name == '指定节点':
                 f = '所有节点'
             elif name == '冷门地区':
                 f = 'LM冷门地区'
@@ -160,7 +168,7 @@ def rules_to_loon(rules, providers, home_groups):
     for r in rules:
         p = [x.strip() for x in r.split(',')]; t = p[0]
         if t == 'RULE-SET':
-            name, pol = p[1], clean(p[2])
+            name, pol = p[1], clean(p[2]); pol = PHONE_MERGE.get(pol, pol)
             if name in SKIP:
                 notes.append(f'跳过 {name}：{SKIP[name]}'); continue
             for u, ppol, tag in PHONE_EXTRA['before'].get(name, []):
@@ -175,9 +183,9 @@ def rules_to_loon(rules, providers, home_groups):
         elif t == 'GEOIP' and p[1].lower() == 'private':
             notes.append('GEOIP,private 手机上由 Lan 名单和 skip-proxy 兜住（Loon 的 GeoIP 库没有 private）')
         elif t in ('IP-CIDR', 'IP-CIDR6', 'GEOIP', 'IP-ASN'):
-            local.append(f'{t},{p[1]},{clean(p[2])},no-resolve')
+            local.append(f'{t},{p[1]},{PHONE_MERGE.get(clean(p[2]), clean(p[2]))},no-resolve')
         elif t in ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD'):
-            local.append(f'{t},{p[1]},{clean(p[2])}')
+            local.append(f'{t},{p[1]},{PHONE_MERGE.get(clean(p[2]), clean(p[2]))}')
         elif t in ('DST-PORT', 'MATCH'):
             notes.append(f'{r} → 手机统一 FINAL,漏网之鱼')
         else:

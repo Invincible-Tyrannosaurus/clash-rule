@@ -38,6 +38,8 @@ def groups_to_surge(groups):
     out = [f'{SUB} = select, policy-path={{SUB_URL}}, update-interval=86400, hidden=true']
     for g in groups:
         name = L.clean(g['name']); t = g['type']
+        if name in L.PHONE_MERGE:
+            continue
         ic = L.icon(g, name); tail = f', icon-url={ic}' if ic else ''
         if g.get('use'):
             flt = str(g.get('filter') or '.*')

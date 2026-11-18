@@ -349,11 +349,11 @@ rules:
 - GEOSITE,private,🎯 全球直连
 - GEOIP,private,🎯 全球直连,no-resolve
 - RULE-SET,Encrypted_DNS_Classical,⛔ 禁止访问,no-resolve
-- RULE-SET,OpenAI,🤖 AI服务,no-resolve
+- RULE-SET,OpenAI,🤖 ChatGPT,no-resolve
 - RULE-SET,Copilot,🤖 AI服务,no-resolve
-- RULE-SET,Claude,🤖 AI服务,no-resolve
-- RULE-SET,Gemini,🤖 AI服务,no-resolve
-- RULE-SET,Anthropic,🤖 AI服务,no-resolve
+- RULE-SET,Claude,🤖 Claude,no-resolve
+- RULE-SET,Gemini,🤖 Gemini,no-resolve
+- RULE-SET,Anthropic,🤖 Claude,no-resolve
 - RULE-SET,Civitai,🤖 AI服务,no-resolve
 - RULE-SET,AI,🤖 AI服务,no-resolve
 - GEOSITE,category-ai-!cn,🤖 AI服务
