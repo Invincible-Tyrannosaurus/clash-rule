@@ -125,6 +125,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/AI.yaml
     path: ./rule_provider/AI.yaml
     interval: 86400
+  Claude_Invincible:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Invincible-Tyrannosaurus/clash-rule/refs/heads/main/Claude.yaml
+    path: ./rule_provider/Claude_Invincible.yaml
+    interval: 86400
   Grok:
     type: http
     behavior: classical
@@ -358,6 +364,7 @@ rules:
 - RULE-SET,Grok,🤖 Grok,no-resolve
 - RULE-SET,OpenAI,🤖 ChatGPT,no-resolve
 - RULE-SET,Copilot,🤖 AI服务,no-resolve
+- RULE-SET,Claude_Invincible,🤖 Claude,no-resolve
 - RULE-SET,Claude,🤖 Claude,no-resolve
 - RULE-SET,Gemini,🤖 Gemini,no-resolve
 - RULE-SET,Anthropic,🤖 Claude,no-resolve

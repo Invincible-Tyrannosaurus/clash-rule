@@ -1,0 +1,5 @@
+payload:
+
+## > Claude 补充（blackmatrix7 的 Claude / Anthropic 名单里没有的，走 🤖 Claude 组）2026-11-19
+  # Claude Code 运行日志上报（Datadog US5 收集口）；原先被 GEOSITE category-ai-!cn 带到 AI服务
+  - DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com

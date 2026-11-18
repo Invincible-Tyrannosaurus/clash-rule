@@ -441,3 +441,6 @@ DOMAIN-SUFFIX,wabi.ai
 DOMAIN-SUFFIX,getwabi.ai
 # MyClaw（OpenClaw 托管平台）
 DOMAIN-SUFFIX,myclaw.ai
+
+# Claude Code 运行日志上报（家里走 🤖 Claude；手机旧配置还没引用 Claude.list，先放这里）2026-11-19
+DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com

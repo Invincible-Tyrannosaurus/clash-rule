@@ -1,0 +1,5 @@
+# 由 Claude.yaml 同步（家里用 .yaml，手机 Loon 用 .list，两份内容一致）。2026-11-19
+
+# > Claude 补充（blackmatrix7 名单里没有的）
+# Claude Code 运行日志上报（Datadog US5 收集口）
+DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com
