@@ -141,6 +141,16 @@ def icon(g, name):
     return ''
 
 
+def members(g):
+    """组成员名：去图标；手机上合并掉的组（Gemini 等）换成合并后的组，去重保序（11-21：谷歌服务默认跟 Gemini）。"""
+    out = []
+    for x in g.get('proxies') or []:
+        n = clean(x); n = PHONE_MERGE.get(n, n)
+        if n not in out:
+            out.append(n)
+    return out
+
+
 def groups_to_loon(groups, filters):
     out = []
     for g in groups:
@@ -167,7 +177,7 @@ def groups_to_loon(groups, filters):
             else:
                 out.append(f'{name} = select,{f}{tail}')
         else:
-            out.append(f'{name} = select,' + ','.join(clean(x) for x in g.get('proxies') or []) + tail)
+            out.append(f'{name} = select,' + ','.join(members(g)) + tail)
     return out
 
 

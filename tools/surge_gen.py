@@ -49,7 +49,7 @@ def groups_to_surge(groups):
             else:
                 out.append(f'{name} = select, include-other-group={SUB}, policy-regex-filter={flt}{tail}')
         else:
-            out.append(f'{name} = select, ' + ', '.join(L.clean(x) for x in g.get('proxies') or []) + tail)
+            out.append(f'{name} = select, ' + ', '.join(L.members(g)) + tail)
     return out
 
 
