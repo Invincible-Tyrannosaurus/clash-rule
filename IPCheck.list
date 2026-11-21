@@ -1,0 +1,24 @@
+# 由 IPCheck.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）。2026-11-21
+
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleak.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,ipdata.co
+DOMAIN-SUFFIX,scamalytics.com
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ip.skk.moe
+DOMAIN-SUFFIX,ip.net.coffee

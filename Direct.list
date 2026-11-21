@@ -50,7 +50,6 @@ DOMAIN-SUFFIX,fully-kiosk.com
 # > 连通性与授时
 
 # IP 检测；订阅走代理，此处保留直连（IP 检测要直连才准）
-DOMAIN-SUFFIX,api.ipify.org
 # IP 地理位置查询
 DOMAIN-SUFFIX,api.ipapi.is
 # Transmission 端口检测
