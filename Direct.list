@@ -1,4 +1,4 @@
-# Direct：由 Direct.yaml 同步，改规则请改 .yaml。整理于 2026-10-20
+# Direct：由 Direct.yaml 同步，改规则请改 .yaml
 
 # > 设备与家庭网络
 
@@ -10,9 +10,9 @@ DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
 # Tailscale（组网，MagicDNS 域名）
 DOMAIN-SUFFIX,ts.net
-# Tailscale 网段（11-11 由 Mihomo.yaml 行内规则并入）
+# Tailscale 网段（由 Mihomo.yaml 行内规则并入）
 IP-CIDR,100.64.0.0/10,no-resolve
-# 局域网 192.168.x（11-11 由 Mihomo.yaml 行内规则并入）
+# 局域网 192.168.x（由 Mihomo.yaml 行内规则并入）
 IP-CIDR,192.168.0.0/16,no-resolve
 # Plex（媒体服务器）
 DOMAIN-SUFFIX,plex.tv
@@ -205,7 +205,7 @@ DOMAIN-SUFFIX,078465.xyz
 # CF 优选测速域名
 DOMAIN-SUFFIX,301308.xyz
 
-# openOS（从旧 direct.list 迁入，2026-11-07）
+# openOS（从旧 direct.list 迁入）
 DOMAIN-SUFFIX,openos.org
 
 # > 博客与资讯
@@ -257,7 +257,7 @@ DOMAIN-SUFFIX,timeblocks.com
 DOMAIN-SUFFIX,juhaolian.net
 # Public Free Suffix 免费公益子域名服务官网
 DOMAIN-SUFFIX,is-a.si
-# Wabi（AI 助手桌面版更新包，直连可用、体积大；聊天走 AI 规则，2026-10-21）
+# Wabi（AI 助手桌面版更新包，直连可用、体积大；聊天走 AI 规则）
 DOMAIN,desktop-updates.wabi.ai
 
 # > 购物

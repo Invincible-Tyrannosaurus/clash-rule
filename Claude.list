@@ -1,4 +1,4 @@
-# 由 Claude.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）。2026-11-19
+# 由 Claude.yaml 同步（家里用 .yaml，手机 / Mac 用 .list）
 
 
 # --- 官方域名（v2fly anthropic + blackmatrix7 Claude / Anthropic）
@@ -23,7 +23,7 @@ DOMAIN-SUFFIX,claudestudio.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,fullstack-anthropic-website.b-cdn.net
-# 新出的 Anthropic 域名兜底（2026-11-21）
+# 新出的 Anthropic 域名兜底
 DOMAIN-KEYWORD,anthropic
 
 # --- Claude / Claude Code 用到的第三方，只收 Anthropic 专用的
@@ -33,7 +33,7 @@ DOMAIN,http-intake.us5.datadoghq.com
 # Claude 错误上报（Sentry，Anthropic 自己的组织号）
 DOMAIN,o1158394.ingest.us.sentry.io
 
-# --- IP：Anthropic 名下整段（2026-11-21 查 ARIN 登记：160.79.104.0–160.79.111.255、153.61.0.0/16、2607:6bc0::/32 都是 Anthropic, PBC）
+# --- IP：Anthropic 名下整段（查 ARIN 登记：160.79.104.0–160.79.111.255、153.61.0.0/16、2607:6bc0::/32 都是 Anthropic, PBC）
 # no-resolve 保留：直接连 IP 的流量照样按 IP 匹配；去掉只会让后面所有境外连接多查一次 DNS
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR,153.61.0.0/16,no-resolve

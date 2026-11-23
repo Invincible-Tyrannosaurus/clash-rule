@@ -1,7 +1,7 @@
 payload:
 
 ## > Gemini / Google AI（AI Studio、NotebookLM、Labs、Jules、Antigravity 等）
-## 自己维护，2026-11-19 起家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 Gemini
+## 自己维护，家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 Gemini
 
   # --- 官方域名（v2fly google-deepmind + blackmatrix7 Gemini）
   - DOMAIN-SUFFIX,deepmind.com

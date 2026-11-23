@@ -1,4 +1,4 @@
-# 由 Reject.yaml 自动同步（家里 OpenClash 用 .yaml，手机 Loon 用 .list，两份内容一致）。改规则请改 .yaml 后再同步。2026-10-20
+# 由 Reject.yaml 自动同步（家里 OpenClash 用 .yaml，手机 Loon 用 .list，两份内容一致）。改规则请改 .yaml 后再同步
 
 # > 屏蔽群晖更新
 
@@ -110,7 +110,7 @@ DOMAIN-SUFFIX,pwlt.wn1998.com
 # FinalShell 相关（hostbuf 备份）
 DOMAIN-SUFFIX,backup.www.hostbuf.com
 
-# > 漏网之鱼 2026-10-11
+# > 漏网之鱼
 
 # Mapbox 遥测上报
 DOMAIN-SUFFIX,events.mapbox.com
@@ -118,84 +118,84 @@ DOMAIN-SUFFIX,events.mapbox.com
 # NEL 网络错误报告
 DOMAIN-SUFFIX,nelreports.net
 
-# > 漏网之鱼 2026-10-12
+# > 漏网之鱼
 
 # Transcend cookie 同意弹窗脚本 CDN
 DOMAIN-SUFFIX,transcend-cdn.com
 
-# > 漏网之鱼 2026-10-13
+# > 漏网之鱼
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,6djwpucn.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,onting550.top
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,leapon117.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,qfpyyn.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,haohuxx.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,6apzfdx.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,rlocn.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,kyiqiwk.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,linanks.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,meiyajudec.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,7ammupm.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,3hknyak.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,quantong.fun
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,yishenwenhua.xyz
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,ewpqd.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,szpro360.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,bzgpzil.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,82579283.com
 
-# 恶意广告/追踪网络（2026-10-13 07:48 三分钟爆发）
+# 恶意广告/追踪网络（几分钟内集中出现）
 DOMAIN-SUFFIX,lyjj.com
 
 # PostHog 产品分析/埋点上报
 DOMAIN-SUFFIX,posthog.com
 
-# > 漏网之鱼 2026-10-16
+# > 漏网之鱼
 
 # WonderfulDay27 域名停放页广告追踪（Above.com/Trellian，f/t+编号子域名）
 DOMAIN-SUFFIX,wonderfulday27.live
 
-# > 漏网之鱼 2026-10-17
+# > 漏网之鱼
 
 # 身份不明的随机命名域名（与 aidajijteb.com 共享证书的域名簇，圣何塞 PEG TECH 灰色机房，疑似广告跳转/欺诈基础设施）
 DOMAIN-SUFFIX,aidajivyev.com
 
-# > 2026-10-20 供应链投毒域名（自 Proxy 移入）
+# >供应链投毒域名（自 Proxy 移入）
 
 # Polyfill JS 库 CDN（2024 年被收购后投毒，已被各大厂商封禁）
 DOMAIN-SUFFIX,polyfill.io

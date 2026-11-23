@@ -1,4 +1,4 @@
-# Proxy：由 Proxy.yaml 同步，改规则请改 .yaml。整理于 2026-10-20
+# Proxy：由 Proxy.yaml 同步，改规则请改 .yaml
 
 # > 影视刮削（Emby / Jellyfin）
 
@@ -199,7 +199,7 @@ DOMAIN-SUFFIX,huan.baby
 # 用途不明
 DOMAIN-SUFFIX,huawei8.live
 
-# Open VSX（VS Code 开源扩展市场）— 2026-11-07 补齐，与 Proxy.yaml 一致
+# Open VSX（VS Code 开源扩展市场）— 与 Proxy.yaml 一致
 DOMAIN-SUFFIX,open-vsx.org
 # Flightradar24 航班动态（国内直连被 Cloudflare 403）
 DOMAIN-SUFFIX,flightradar24.com

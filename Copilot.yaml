@@ -1,7 +1,7 @@
 payload:
 
 ## > Copilot（GitHub Copilot + 微软 Copilot）
-## 自己维护，2026-11-19 起家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 AI服务
+## 自己维护，家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 AI服务
 
   # --- GitHub Copilot（v2fly github-copilot）
   - DOMAIN-SUFFIX,githubcopilot.com

@@ -1,6 +1,6 @@
 payload:
 
-  ## > IP / DNS 检测网站（2026-11-21 Claude-Mac）
+  ## > IP / DNS 检测网站
   ## 家里走 🔎 检测（默认跟 🤖 AI服务），测哪条线路就在面板切哪条；手机 / Mac 跟 AI 组
   ## api.ipify.org 原在 Direct（2022 年随上游带来），家里直连一直被拒，挪到这里
 

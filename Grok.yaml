@@ -1,7 +1,7 @@
 payload:
 
 ## > xAI Grok（X 本身仍走 Twitter）
-## 自己维护，2026-11-19 起家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 Grok
+## 自己维护，家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 Grok
 
   # --- 官方域名（v2fly xai）
   - DOMAIN-SUFFIX,grok.com

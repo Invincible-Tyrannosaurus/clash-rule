@@ -1,5 +1,5 @@
 payload:
-  # Talkatone（美国号码）：家里和手机都走「📞 Talkatone」组（只列美国单个节点）。2026-11-11 由 geosite talkatone 改成本表。改规则请改 .yaml，再把同一条加到 Talkatone.list
+  # Talkatone（美国号码）：家里和手机都走「📞 Talkatone」组（只列美国单个节点）。原来用 geosite talkatone， 改成本表。改规则请改 .yaml，再把同一条加到 Talkatone.list
 
   # Talkatone 本体
   - DOMAIN-SUFFIX,talkatone.com

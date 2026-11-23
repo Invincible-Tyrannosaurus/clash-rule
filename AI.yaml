@@ -1,8 +1,8 @@
 payload:
 
 ## > AI 工具通用规则
-## 没有专属分组的 AI 工具走这里（ChatGPT / Claude / Gemini / Grok / Copilot 各有自己的名单，2026-11-19 从这里挪走）
-## 原 MetaAI.yaml 改名扩展，2026-10-07
+## 没有专属分组的 AI 工具走这里（ChatGPT / Claude / Gemini / Grok / Copilot 各有自己的名单，已从这里挪走）
+## 原 MetaAI.yaml 改名扩展
 
   # Muse（AI 智能体）
   - DOMAIN-SUFFIX,muse.ai
@@ -10,7 +10,7 @@ payload:
   # Hark（AI 工具）
   - DOMAIN-SUFFIX,hark.com
 
-  # Hark 服务 IP（Cloudflare 拦截中国大陆 IP，直连返回 403，必须走代理；2026-10-20 实测）
+  # Hark 服务 IP（Cloudflare 拦截中国大陆 IP，直连返回 403，必须走代理）
   - IP-CIDR,104.18.20.37/32,no-resolve
   - IP-CIDR,104.18.21.37/32,no-resolve
 
@@ -41,7 +41,7 @@ payload:
   # Eazo AI 项目预览域名（Vercel）
   - DOMAIN-SUFFIX,eazo.dev
 
-  # ===== 2026-10-21 扩充：海外 AI 产品统一走 AI服务（美国节点）=====
+  # ===== 扩充：海外 AI 产品统一走 AI服务（美国节点）=====
   # ChatGPT/Claude/Gemini/Copilot 主域名由 blackmatrix7 专属规则覆盖；国内 AI（DeepSeek/Kimi/豆包/千问/元宝/智谱）走直连，不放这里
 
   # --- 对话 / 搜索 ---
@@ -299,7 +299,7 @@ payload:
   # Pinecone
   - DOMAIN-SUFFIX,pinecone.io
 
-  # --- 合并自 v2fly/domain-list-community 的 category-ai-!cn（社区维护的海外 AI 清单，2026-10-21 同步，去掉 Envato、LivePerson 等非 AI） ---
+  # --- 合并自 v2fly/domain-list-community 的 category-ai-!cn（社区维护的海外 AI 清单，去掉 Envato、LivePerson 等非 AI） ---
   - DOMAIN-SUFFIX,agentclientprotocol.com
   - DOMAIN-SUFFIX,anythingllm.com
   - DOMAIN-SUFFIX,arena.ai
@@ -357,15 +357,15 @@ payload:
   - DOMAIN-SUFFIX,youmind.ai
   - DOMAIN-SUFFIX,youmind.com
   - DOMAIN-SUFFIX,youmind.site
-  # Civitai（AI 模型分享；black7 Civitai 只含 civitai.com，关键词补全其他域名，2026-10-21 从 Proxy 移来）
+  # Civitai（AI 模型分享；black7 Civitai 只含 civitai.com，关键词补全其他域名；从 Proxy 移来）
   - DOMAIN-KEYWORD,civitai
-  # Wabi（Replika 创始人的 AI 助手，2026-10-19 上线）
+  # Wabi（Replika 创始人的 AI 助手）
   - DOMAIN-SUFFIX,wabi.ai
   - DOMAIN-SUFFIX,getwabi.ai
   # MyClaw（OpenClaw 托管平台）
   - DOMAIN-SUFFIX,myclaw.ai
 
-  # --- v2fly category-ai-!cn 里其他 AI 工具（2026-11-19 补齐，家里不再订阅这个分类）
+  # --- v2fly category-ai-!cn 里其他 AI 工具（家里不再订阅这个分类）
   - DOMAIN-SUFFIX,oystermercury.top
   - DOMAIN-SUFFIX,elevenlabsusercontent.com
   - DOMAIN-SUFFIX,metaaiusercontent.com
@@ -374,5 +374,5 @@ payload:
   - DOMAIN-SUFFIX,context7.com
   - DOMAIN-SUFFIX,nousresearch.com
 
-  # Cloudflare 人机验证（Turnstile）：ChatGPT / Claude 登录会用，跟 AI 出口一致，免得验证和主站 IP 不同反复验证（2026-11-21）
+  # Cloudflare 人机验证（Turnstile）：ChatGPT / Claude 登录会用，跟 AI 出口一致，免得验证和主站 IP 不同反复验证
   - DOMAIN,challenges.cloudflare.com

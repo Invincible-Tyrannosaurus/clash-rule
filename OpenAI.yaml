@@ -1,7 +1,7 @@
 payload:
 
 ## > ChatGPT / OpenAI
-## 自己维护，2026-11-19 起家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 ChatGPT
+## 自己维护，家里只订阅本仓库（合并 v2fly domain-list-community + blackmatrix7 + 家里实测）；走 🤖 ChatGPT
 
   # --- 官方域名（v2fly openai + blackmatrix7 OpenAI 里 OpenAI 自己的）
   - DOMAIN-SUFFIX,chat.com
@@ -37,7 +37,7 @@ payload:
   - DOMAIN,openai.qualtrics.com
 
   # --- ChatGPT 付款（Stripe）：付款页、风控指纹都跟 ChatGPT 走同一个出口，免得换区开会员时 IP 对不上被拦
-  #     （11-19 前 m.stripe.network 被 ChinaMax 带去直连，暴露国内 IP）；副作用：别的网站用 Stripe 付款也走这条
+  #     （以前 m.stripe.network 被 ChinaMax 带去直连，暴露国内 IP）；副作用：别的网站用 Stripe 付款也走这条
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripe.network
   - DOMAIN-SUFFIX,stripecdn.com

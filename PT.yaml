@@ -89,12 +89,12 @@ payload:
   # PterClub（主域）
   - DOMAIN-SUFFIX,pterclub.net
 
-## > 漏网之鱼 2026-10-11
+## > 漏网之鱼
 
   # PTTime（PT 站新域）
   - DOMAIN-SUFFIX,pttime.fun
 
-## > 漏网之鱼 2026-10-20（家里 DNS 缓存比对）
+## > 漏网之鱼（家里 DNS 缓存比对）
 
   # PandaPT（熊猫 PT，Tracker 等）
   - DOMAIN-SUFFIX,pandapt.net
