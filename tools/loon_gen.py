@@ -8,7 +8,7 @@
 脚本只重写 [Proxy Group] [Rule] [Remote Rule] 三段，其余段原样取自私有部分。
 
 用法（在 .43）：
-  python3 tools/loon_gen.py --private /opt/Workspace/Tools/LoonGen/private.conf --out /opt/Workspace/Tools/LoonGen/out/Loon.conf
+  python3 tools/loon_gen.py --private /opt/Workspace/Projects/Network/LoonGen/private.conf --out /opt/Workspace/Projects/Network/LoonGen/out/Loon.conf
 
 翻译约定：
   - 组名去掉开头图标，「手动切换」写成「指定节点」（和面板一致）

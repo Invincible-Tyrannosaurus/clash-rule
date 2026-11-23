@@ -7,8 +7,8 @@
 脚本生成 [Proxy Group] 和 [Rule]，其余段原样取自 --private。
 
 用法（在 .43）：
-  python3 tools/surge_gen.py --private /opt/Workspace/Tools/LoonGen/surge-private.conf \
-      --loon-private /opt/Workspace/Tools/LoonGen/private.conf --out /opt/Workspace/Tools/LoonGen/out/Surge.conf
+  python3 tools/surge_gen.py --private /opt/Workspace/Projects/Network/LoonGen/surge-private.conf \
+      --loon-private /opt/Workspace/Projects/Network/LoonGen/private.conf --out /opt/Workspace/Projects/Network/LoonGen/out/Surge.conf
 
 和 Loon 的区别：Surge 严格从上往下匹配，所以每条 RULE-SET 都加 no-resolve；blackmatrix 的 _Domain 名单用 DOMAIN-SET；
 节点来自一个隐藏的订阅组，地区组用 Surge 的 smart 组 + 家里同样的筛选正则。

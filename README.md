@@ -19,7 +19,7 @@
 手机 Loon 的策略组和分流由 `tools/loon_gen.py` 按家里生成，**改分流只改家里**（本仓库 `Mihomo.yaml` + VM101 的策略组），再重新生成一次：
 
 ```
-python3 tools/loon_gen.py --private /opt/Workspace/Tools/LoonGen/private.conf --out /opt/Workspace/Tools/LoonGen/out/Loon-$(date +%Y%m%d).conf
+python3 tools/loon_gen.py --private /opt/Workspace/Projects/Network/LoonGen/private.conf --out /opt/Workspace/Projects/Network/LoonGen/out/Loon-$(date +%Y%m%d).conf
 ```
 
 - 规则顺序、规则集、策略组都和家里一致；组名去掉图标，「手动切换」写成「指定节点」（和面板一致）。
@@ -31,7 +31,7 @@ python3 tools/loon_gen.py --private /opt/Workspace/Tools/LoonGen/private.conf --
 `tools/surge_gen.py` 用和 Loon 同一张对照表生成 Surge 配置（RULE-SET 一律 no-resolve，blackmatrix 的 _Domain 用 DOMAIN-SET，地区组用 smart 组 + 家里同样的筛选正则）：
 
 ```
-python3 tools/surge_gen.py --private /opt/Workspace/Tools/LoonGen/surge-private.conf --loon-private /opt/Workspace/Tools/LoonGen/private.conf --out /opt/Workspace/Tools/LoonGen/out/Surge-$(date +%Y%m%d).conf
+python3 tools/surge_gen.py --private /opt/Workspace/Projects/Network/LoonGen/surge-private.conf --loon-private /opt/Workspace/Projects/Network/LoonGen/private.conf --out /opt/Workspace/Projects/Network/LoonGen/out/Surge-$(date +%Y%m%d).conf
 ```
 
 - `--private`：Surge 私有部分（[General]、[Host]、[SSID Setting] 和排在最前的工作网络规则），只在 .43，不进仓库。
