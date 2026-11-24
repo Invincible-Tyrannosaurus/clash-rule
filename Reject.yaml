@@ -199,3 +199,9 @@ payload:
 
   # Polyfill JS 库 CDN（2024 年被收购后投毒，已被各大厂商封禁）
   - DOMAIN-SUFFIX,polyfill.io
+
+  # T3 Code：服务端遥测与埋点上报
+  - DOMAIN,ingest.t3.codes
+
+  # T3 Code：Relay 链路追踪上报（Axiom）
+  - DOMAIN,us-east-1.aws.edge.axiom.co
