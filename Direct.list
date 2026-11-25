@@ -4,8 +4,14 @@
 
 # 自有域名（DDNS）
 DOMAIN-SUFFIX,7788996.xyz
-# Tailscale（组网）
-DOMAIN-SUFFIX,tailscale.com
+# Tailscale 登录
+DOMAIN-SUFFIX,login.tailscale.com
+# Tailscale 控制服务器（组网）
+DOMAIN-SUFFIX,controlplane.tailscale.com
+# Tailscale 日志上报
+DOMAIN-SUFFIX,log.tailscale.com
+# Tailscale 安装包
+DOMAIN-SUFFIX,pkgs.tailscale.com
 # Tailscale（组网）
 DOMAIN-SUFFIX,tailscale.io
 # Tailscale（组网，MagicDNS 域名）
